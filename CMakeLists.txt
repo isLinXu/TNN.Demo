@@ -5,15 +5,19 @@ set(TNN_LIB_PATH ${CMAKE_SOURCE_DIR}/third_party/tnn_x86_lib/build_linux_native)
 message(${TNN_LIB_PATH})
 option(TNN_OPENVINO_ENABLE "with openvino lib" OFF)
 option(TNN_OPENVINO_LIB_PATH "openvino lib path" "")
-option(TNN_DEMO_WITH_OPENCV "with opencv" OFF)
+option(TNN_DEMO_WITH_OPENCV "with opencv" TRUE)
 
 set(CMAKE_CXX_STANDARD 11)
 set(TNN_CPU_ENABLE ON)
 
-if (TNN_DEMO_WITH_OPENCV)
-    find_package(OpenCV 4 REQUIRED)
-    include_directories(${OpenCV_INCLUDE_DIRS})
-endif()
+
+find_package(OpenCV 4 REQUIRED)
+include_directories(${OpenCV_INCLUDE_DIRS})
+MESSAGE(STATUS "Project: ${PROJECT_NAME}")
+MESSAGE(STATUS "OpenCV library status:")
+MESSAGE(STATUS "    version: ${OpenCV_VERSION}")
+MESSAGE(STATUS "    libraries: ${OpenCV_LIBS}")
+MESSAGE(STATUS "    include path: ${OpenCV_INCLUDE_DIRS}")
 
 if (CMAKE_SYSTEM_NAME MATCHES "Windows")
     set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} /w")
@@ -49,7 +53,6 @@ endif()
 
 
 add_executable(TNN-demo main.cpp)
-
 if (TNN_DEMO_WITH_OPENCV)
     target_link_libraries(TNN-demo ${OpenCV_LIBS} ${TNN_LIBS})
 endif()
