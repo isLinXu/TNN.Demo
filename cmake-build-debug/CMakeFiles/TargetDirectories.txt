@@ -1,0 +1,14 @@
+/home/linxu/CLionProjects/TNN.Demo/cmake-build-debug/CMakeFiles/TNN-demo.dir
+/home/linxu/CLionProjects/TNN.Demo/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/linxu/CLionProjects/TNN.Demo/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/linxu/CLionProjects/TNN.Demo/cmake-build-debug/CMakeFiles/list_install_components.dir
+/home/linxu/CLionProjects/TNN.Demo/cmake-build-debug/CMakeFiles/install.dir
+/home/linxu/CLionProjects/TNN.Demo/cmake-build-debug/CMakeFiles/install/local.dir
+/home/linxu/CLionProjects/TNN.Demo/cmake-build-debug/CMakeFiles/install/strip.dir
+/home/linxu/CLionProjects/TNN.Demo/third_party/gflags/CMakeFiles/gflags_nothreads_static.dir
+/home/linxu/CLionProjects/TNN.Demo/third_party/gflags/CMakeFiles/edit_cache.dir
+/home/linxu/CLionProjects/TNN.Demo/third_party/gflags/CMakeFiles/rebuild_cache.dir
+/home/linxu/CLionProjects/TNN.Demo/third_party/gflags/CMakeFiles/list_install_components.dir
+/home/linxu/CLionProjects/TNN.Demo/third_party/gflags/CMakeFiles/install.dir
+/home/linxu/CLionProjects/TNN.Demo/third_party/gflags/CMakeFiles/install/local.dir
+/home/linxu/CLionProjects/TNN.Demo/third_party/gflags/CMakeFiles/install/strip.dir
