@@ -1,11 +1,5 @@
 /home/linxu/Apps/clion-2022.3.2/bin/cmake/linux/x64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/home/linxu/Apps/clion-2022.3.2/bin/ninja/linux/x64/ninja -G Ninja -S /home/linxu/CLionProjects/TNN.Demo -B /home/linxu/CLionProjects/TNN.Demo/cmake-build-debug
 /home/linxu/CLionProjects/TNN.Demo
-/home/linxu/CLionProjects/TNN.Demo/third_party/tnn_x86_lib/build_linux_native
--- Project: TNN.Demo
--- OpenCV library status:
---     version: 4.5.5
---     libraries: opencv_calib3d;opencv_core;opencv_dnn;opencv_features2d;opencv_flann;opencv_gapi;opencv_highgui;opencv_imgcodecs;opencv_imgproc;opencv_ml;opencv_objdetect;opencv_photo;opencv_stitching;opencv_video;opencv_videoio
---     include path: /usr/local/include/opencv4
 -- Configuring done
 -- Generating done
 -- Build files have been written to: /home/linxu/CLionProjects/TNN.Demo/cmake-build-debug

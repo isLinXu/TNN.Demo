@@ -1,3 +1,4 @@
+/home/linxu/CLionProjects/TNN.Demo/cmake-build-debug/CMakeFiles/demo_x86_imageclassify.dir
 /home/linxu/CLionProjects/TNN.Demo/cmake-build-debug/CMakeFiles/TNN-demo.dir
 /home/linxu/CLionProjects/TNN.Demo/cmake-build-debug/CMakeFiles/edit_cache.dir
 /home/linxu/CLionProjects/TNN.Demo/cmake-build-debug/CMakeFiles/rebuild_cache.dir

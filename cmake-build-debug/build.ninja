@@ -41,6 +41,265 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = /home/linxu/CLionProjects/TNN.Demo/cmake-build-debug/
 # =============================================================================
+# Object build statements for EXECUTABLE target demo_x86_imageclassify
+
+
+#############################################
+# Order-only phony target for demo_x86_imageclassify
+
+build cmake_object_order_depends_target_demo_x86_imageclassify: phony || cmake_object_order_depends_target_gflags_nothreads_static
+
+build CMakeFiles/demo_x86_imageclassify.dir/demo/src/TNNImageClassify/TNNImageClassify.cc.o: CXX_COMPILER__demo_x86_imageclassify_Debug /home/linxu/CLionProjects/TNN.Demo/demo/src/TNNImageClassify/TNNImageClassify.cc || cmake_object_order_depends_target_demo_x86_imageclassify
+  DEFINES = -DGFLAGS_IS_A_DLL=0
+  DEP_FILE = CMakeFiles/demo_x86_imageclassify.dir/demo/src/TNNImageClassify/TNNImageClassify.cc.o.d
+  FLAGS = -O3 -std=c++11 -pthread -fPIC -g -fdiagnostics-color=always -std=gnu++11
+  INCLUDES = -I/home/linxu/CLionProjects/TNN.Demo/third_party/gflags/include -I/home/linxu/CLionProjects/TNN.Demo/include -I/home/linxu/CLionProjects/TNN.Demo/base -I/home/linxu/CLionProjects/TNN.Demo/utils
+  OBJECT_DIR = CMakeFiles/demo_x86_imageclassify.dir
+  OBJECT_FILE_DIR = CMakeFiles/demo_x86_imageclassify.dir/demo/src/TNNImageClassify
+
+build CMakeFiles/demo_x86_imageclassify.dir/base/bert_tokenizer.cc.o: CXX_COMPILER__demo_x86_imageclassify_Debug /home/linxu/CLionProjects/TNN.Demo/base/bert_tokenizer.cc || cmake_object_order_depends_target_demo_x86_imageclassify
+  DEFINES = -DGFLAGS_IS_A_DLL=0
+  DEP_FILE = CMakeFiles/demo_x86_imageclassify.dir/base/bert_tokenizer.cc.o.d
+  FLAGS = -O3 -std=c++11 -pthread -fPIC -g -fdiagnostics-color=always -std=gnu++11
+  INCLUDES = -I/home/linxu/CLionProjects/TNN.Demo/third_party/gflags/include -I/home/linxu/CLionProjects/TNN.Demo/include -I/home/linxu/CLionProjects/TNN.Demo/base -I/home/linxu/CLionProjects/TNN.Demo/utils
+  OBJECT_DIR = CMakeFiles/demo_x86_imageclassify.dir
+  OBJECT_FILE_DIR = CMakeFiles/demo_x86_imageclassify.dir/base
+
+build CMakeFiles/demo_x86_imageclassify.dir/base/blazeface_detector.cc.o: CXX_COMPILER__demo_x86_imageclassify_Debug /home/linxu/CLionProjects/TNN.Demo/base/blazeface_detector.cc || cmake_object_order_depends_target_demo_x86_imageclassify
+  DEFINES = -DGFLAGS_IS_A_DLL=0
+  DEP_FILE = CMakeFiles/demo_x86_imageclassify.dir/base/blazeface_detector.cc.o.d
+  FLAGS = -O3 -std=c++11 -pthread -fPIC -g -fdiagnostics-color=always -std=gnu++11
+  INCLUDES = -I/home/linxu/CLionProjects/TNN.Demo/third_party/gflags/include -I/home/linxu/CLionProjects/TNN.Demo/include -I/home/linxu/CLionProjects/TNN.Demo/base -I/home/linxu/CLionProjects/TNN.Demo/utils
+  OBJECT_DIR = CMakeFiles/demo_x86_imageclassify.dir
+  OBJECT_FILE_DIR = CMakeFiles/demo_x86_imageclassify.dir/base
+
+build CMakeFiles/demo_x86_imageclassify.dir/base/blazepose_detector.cc.o: CXX_COMPILER__demo_x86_imageclassify_Debug /home/linxu/CLionProjects/TNN.Demo/base/blazepose_detector.cc || cmake_object_order_depends_target_demo_x86_imageclassify
+  DEFINES = -DGFLAGS_IS_A_DLL=0
+  DEP_FILE = CMakeFiles/demo_x86_imageclassify.dir/base/blazepose_detector.cc.o.d
+  FLAGS = -O3 -std=c++11 -pthread -fPIC -g -fdiagnostics-color=always -std=gnu++11
+  INCLUDES = -I/home/linxu/CLionProjects/TNN.Demo/third_party/gflags/include -I/home/linxu/CLionProjects/TNN.Demo/include -I/home/linxu/CLionProjects/TNN.Demo/base -I/home/linxu/CLionProjects/TNN.Demo/utils
+  OBJECT_DIR = CMakeFiles/demo_x86_imageclassify.dir
+  OBJECT_FILE_DIR = CMakeFiles/demo_x86_imageclassify.dir/base
+
+build CMakeFiles/demo_x86_imageclassify.dir/base/blazepose_landmark.cc.o: CXX_COMPILER__demo_x86_imageclassify_Debug /home/linxu/CLionProjects/TNN.Demo/base/blazepose_landmark.cc || cmake_object_order_depends_target_demo_x86_imageclassify
+  DEFINES = -DGFLAGS_IS_A_DLL=0
+  DEP_FILE = CMakeFiles/demo_x86_imageclassify.dir/base/blazepose_landmark.cc.o.d
+  FLAGS = -O3 -std=c++11 -pthread -fPIC -g -fdiagnostics-color=always -std=gnu++11
+  INCLUDES = -I/home/linxu/CLionProjects/TNN.Demo/third_party/gflags/include -I/home/linxu/CLionProjects/TNN.Demo/include -I/home/linxu/CLionProjects/TNN.Demo/base -I/home/linxu/CLionProjects/TNN.Demo/utils
+  OBJECT_DIR = CMakeFiles/demo_x86_imageclassify.dir
+  OBJECT_FILE_DIR = CMakeFiles/demo_x86_imageclassify.dir/base
+
+build CMakeFiles/demo_x86_imageclassify.dir/base/face_detect_aligner.cc.o: CXX_COMPILER__demo_x86_imageclassify_Debug /home/linxu/CLionProjects/TNN.Demo/base/face_detect_aligner.cc || cmake_object_order_depends_target_demo_x86_imageclassify
+  DEFINES = -DGFLAGS_IS_A_DLL=0
+  DEP_FILE = CMakeFiles/demo_x86_imageclassify.dir/base/face_detect_aligner.cc.o.d
+  FLAGS = -O3 -std=c++11 -pthread -fPIC -g -fdiagnostics-color=always -std=gnu++11
+  INCLUDES = -I/home/linxu/CLionProjects/TNN.Demo/third_party/gflags/include -I/home/linxu/CLionProjects/TNN.Demo/include -I/home/linxu/CLionProjects/TNN.Demo/base -I/home/linxu/CLionProjects/TNN.Demo/utils
+  OBJECT_DIR = CMakeFiles/demo_x86_imageclassify.dir
+  OBJECT_FILE_DIR = CMakeFiles/demo_x86_imageclassify.dir/base
+
+build CMakeFiles/demo_x86_imageclassify.dir/base/face_detect_mesh.cc.o: CXX_COMPILER__demo_x86_imageclassify_Debug /home/linxu/CLionProjects/TNN.Demo/base/face_detect_mesh.cc || cmake_object_order_depends_target_demo_x86_imageclassify
+  DEFINES = -DGFLAGS_IS_A_DLL=0
+  DEP_FILE = CMakeFiles/demo_x86_imageclassify.dir/base/face_detect_mesh.cc.o.d
+  FLAGS = -O3 -std=c++11 -pthread -fPIC -g -fdiagnostics-color=always -std=gnu++11
+  INCLUDES = -I/home/linxu/CLionProjects/TNN.Demo/third_party/gflags/include -I/home/linxu/CLionProjects/TNN.Demo/include -I/home/linxu/CLionProjects/TNN.Demo/base -I/home/linxu/CLionProjects/TNN.Demo/utils
+  OBJECT_DIR = CMakeFiles/demo_x86_imageclassify.dir
+  OBJECT_FILE_DIR = CMakeFiles/demo_x86_imageclassify.dir/base
+
+build CMakeFiles/demo_x86_imageclassify.dir/base/face_gray_transfer.cc.o: CXX_COMPILER__demo_x86_imageclassify_Debug /home/linxu/CLionProjects/TNN.Demo/base/face_gray_transfer.cc || cmake_object_order_depends_target_demo_x86_imageclassify
+  DEFINES = -DGFLAGS_IS_A_DLL=0
+  DEP_FILE = CMakeFiles/demo_x86_imageclassify.dir/base/face_gray_transfer.cc.o.d
+  FLAGS = -O3 -std=c++11 -pthread -fPIC -g -fdiagnostics-color=always -std=gnu++11
+  INCLUDES = -I/home/linxu/CLionProjects/TNN.Demo/third_party/gflags/include -I/home/linxu/CLionProjects/TNN.Demo/include -I/home/linxu/CLionProjects/TNN.Demo/base -I/home/linxu/CLionProjects/TNN.Demo/utils
+  OBJECT_DIR = CMakeFiles/demo_x86_imageclassify.dir
+  OBJECT_FILE_DIR = CMakeFiles/demo_x86_imageclassify.dir/base
+
+build CMakeFiles/demo_x86_imageclassify.dir/base/face_mesh.cc.o: CXX_COMPILER__demo_x86_imageclassify_Debug /home/linxu/CLionProjects/TNN.Demo/base/face_mesh.cc || cmake_object_order_depends_target_demo_x86_imageclassify
+  DEFINES = -DGFLAGS_IS_A_DLL=0
+  DEP_FILE = CMakeFiles/demo_x86_imageclassify.dir/base/face_mesh.cc.o.d
+  FLAGS = -O3 -std=c++11 -pthread -fPIC -g -fdiagnostics-color=always -std=gnu++11
+  INCLUDES = -I/home/linxu/CLionProjects/TNN.Demo/third_party/gflags/include -I/home/linxu/CLionProjects/TNN.Demo/include -I/home/linxu/CLionProjects/TNN.Demo/base -I/home/linxu/CLionProjects/TNN.Demo/utils
+  OBJECT_DIR = CMakeFiles/demo_x86_imageclassify.dir
+  OBJECT_FILE_DIR = CMakeFiles/demo_x86_imageclassify.dir/base
+
+build CMakeFiles/demo_x86_imageclassify.dir/base/hair_segmentation.cc.o: CXX_COMPILER__demo_x86_imageclassify_Debug /home/linxu/CLionProjects/TNN.Demo/base/hair_segmentation.cc || cmake_object_order_depends_target_demo_x86_imageclassify
+  DEFINES = -DGFLAGS_IS_A_DLL=0
+  DEP_FILE = CMakeFiles/demo_x86_imageclassify.dir/base/hair_segmentation.cc.o.d
+  FLAGS = -O3 -std=c++11 -pthread -fPIC -g -fdiagnostics-color=always -std=gnu++11
+  INCLUDES = -I/home/linxu/CLionProjects/TNN.Demo/third_party/gflags/include -I/home/linxu/CLionProjects/TNN.Demo/include -I/home/linxu/CLionProjects/TNN.Demo/base -I/home/linxu/CLionProjects/TNN.Demo/utils
+  OBJECT_DIR = CMakeFiles/demo_x86_imageclassify.dir
+  OBJECT_FILE_DIR = CMakeFiles/demo_x86_imageclassify.dir/base
+
+build CMakeFiles/demo_x86_imageclassify.dir/base/image_classifier.cc.o: CXX_COMPILER__demo_x86_imageclassify_Debug /home/linxu/CLionProjects/TNN.Demo/base/image_classifier.cc || cmake_object_order_depends_target_demo_x86_imageclassify
+  DEFINES = -DGFLAGS_IS_A_DLL=0
+  DEP_FILE = CMakeFiles/demo_x86_imageclassify.dir/base/image_classifier.cc.o.d
+  FLAGS = -O3 -std=c++11 -pthread -fPIC -g -fdiagnostics-color=always -std=gnu++11
+  INCLUDES = -I/home/linxu/CLionProjects/TNN.Demo/third_party/gflags/include -I/home/linxu/CLionProjects/TNN.Demo/include -I/home/linxu/CLionProjects/TNN.Demo/base -I/home/linxu/CLionProjects/TNN.Demo/utils
+  OBJECT_DIR = CMakeFiles/demo_x86_imageclassify.dir
+  OBJECT_FILE_DIR = CMakeFiles/demo_x86_imageclassify.dir/base
+
+build CMakeFiles/demo_x86_imageclassify.dir/base/monodepth.cc.o: CXX_COMPILER__demo_x86_imageclassify_Debug /home/linxu/CLionProjects/TNN.Demo/base/monodepth.cc || cmake_object_order_depends_target_demo_x86_imageclassify
+  DEFINES = -DGFLAGS_IS_A_DLL=0
+  DEP_FILE = CMakeFiles/demo_x86_imageclassify.dir/base/monodepth.cc.o.d
+  FLAGS = -O3 -std=c++11 -pthread -fPIC -g -fdiagnostics-color=always -std=gnu++11
+  INCLUDES = -I/home/linxu/CLionProjects/TNN.Demo/third_party/gflags/include -I/home/linxu/CLionProjects/TNN.Demo/include -I/home/linxu/CLionProjects/TNN.Demo/base -I/home/linxu/CLionProjects/TNN.Demo/utils
+  OBJECT_DIR = CMakeFiles/demo_x86_imageclassify.dir
+  OBJECT_FILE_DIR = CMakeFiles/demo_x86_imageclassify.dir/base
+
+build CMakeFiles/demo_x86_imageclassify.dir/base/object_detector_nanodet.cc.o: CXX_COMPILER__demo_x86_imageclassify_Debug /home/linxu/CLionProjects/TNN.Demo/base/object_detector_nanodet.cc || cmake_object_order_depends_target_demo_x86_imageclassify
+  DEFINES = -DGFLAGS_IS_A_DLL=0
+  DEP_FILE = CMakeFiles/demo_x86_imageclassify.dir/base/object_detector_nanodet.cc.o.d
+  FLAGS = -O3 -std=c++11 -pthread -fPIC -g -fdiagnostics-color=always -std=gnu++11
+  INCLUDES = -I/home/linxu/CLionProjects/TNN.Demo/third_party/gflags/include -I/home/linxu/CLionProjects/TNN.Demo/include -I/home/linxu/CLionProjects/TNN.Demo/base -I/home/linxu/CLionProjects/TNN.Demo/utils
+  OBJECT_DIR = CMakeFiles/demo_x86_imageclassify.dir
+  OBJECT_FILE_DIR = CMakeFiles/demo_x86_imageclassify.dir/base
+
+build CMakeFiles/demo_x86_imageclassify.dir/base/object_detector_ssd.cc.o: CXX_COMPILER__demo_x86_imageclassify_Debug /home/linxu/CLionProjects/TNN.Demo/base/object_detector_ssd.cc || cmake_object_order_depends_target_demo_x86_imageclassify
+  DEFINES = -DGFLAGS_IS_A_DLL=0
+  DEP_FILE = CMakeFiles/demo_x86_imageclassify.dir/base/object_detector_ssd.cc.o.d
+  FLAGS = -O3 -std=c++11 -pthread -fPIC -g -fdiagnostics-color=always -std=gnu++11
+  INCLUDES = -I/home/linxu/CLionProjects/TNN.Demo/third_party/gflags/include -I/home/linxu/CLionProjects/TNN.Demo/include -I/home/linxu/CLionProjects/TNN.Demo/base -I/home/linxu/CLionProjects/TNN.Demo/utils
+  OBJECT_DIR = CMakeFiles/demo_x86_imageclassify.dir
+  OBJECT_FILE_DIR = CMakeFiles/demo_x86_imageclassify.dir/base
+
+build CMakeFiles/demo_x86_imageclassify.dir/base/object_detector_yolo.cc.o: CXX_COMPILER__demo_x86_imageclassify_Debug /home/linxu/CLionProjects/TNN.Demo/base/object_detector_yolo.cc || cmake_object_order_depends_target_demo_x86_imageclassify
+  DEFINES = -DGFLAGS_IS_A_DLL=0
+  DEP_FILE = CMakeFiles/demo_x86_imageclassify.dir/base/object_detector_yolo.cc.o.d
+  FLAGS = -O3 -std=c++11 -pthread -fPIC -g -fdiagnostics-color=always -std=gnu++11
+  INCLUDES = -I/home/linxu/CLionProjects/TNN.Demo/third_party/gflags/include -I/home/linxu/CLionProjects/TNN.Demo/include -I/home/linxu/CLionProjects/TNN.Demo/base -I/home/linxu/CLionProjects/TNN.Demo/utils
+  OBJECT_DIR = CMakeFiles/demo_x86_imageclassify.dir
+  OBJECT_FILE_DIR = CMakeFiles/demo_x86_imageclassify.dir/base
+
+build CMakeFiles/demo_x86_imageclassify.dir/base/opengl_direct_mem_adapter.cc.o: CXX_COMPILER__demo_x86_imageclassify_Debug /home/linxu/CLionProjects/TNN.Demo/base/opengl_direct_mem_adapter.cc || cmake_object_order_depends_target_demo_x86_imageclassify
+  DEFINES = -DGFLAGS_IS_A_DLL=0
+  DEP_FILE = CMakeFiles/demo_x86_imageclassify.dir/base/opengl_direct_mem_adapter.cc.o.d
+  FLAGS = -O3 -std=c++11 -pthread -fPIC -g -fdiagnostics-color=always -std=gnu++11
+  INCLUDES = -I/home/linxu/CLionProjects/TNN.Demo/third_party/gflags/include -I/home/linxu/CLionProjects/TNN.Demo/include -I/home/linxu/CLionProjects/TNN.Demo/base -I/home/linxu/CLionProjects/TNN.Demo/utils
+  OBJECT_DIR = CMakeFiles/demo_x86_imageclassify.dir
+  OBJECT_FILE_DIR = CMakeFiles/demo_x86_imageclassify.dir/base
+
+build CMakeFiles/demo_x86_imageclassify.dir/base/pose_detect_landmark.cc.o: CXX_COMPILER__demo_x86_imageclassify_Debug /home/linxu/CLionProjects/TNN.Demo/base/pose_detect_landmark.cc || cmake_object_order_depends_target_demo_x86_imageclassify
+  DEFINES = -DGFLAGS_IS_A_DLL=0
+  DEP_FILE = CMakeFiles/demo_x86_imageclassify.dir/base/pose_detect_landmark.cc.o.d
+  FLAGS = -O3 -std=c++11 -pthread -fPIC -g -fdiagnostics-color=always -std=gnu++11
+  INCLUDES = -I/home/linxu/CLionProjects/TNN.Demo/third_party/gflags/include -I/home/linxu/CLionProjects/TNN.Demo/include -I/home/linxu/CLionProjects/TNN.Demo/base -I/home/linxu/CLionProjects/TNN.Demo/utils
+  OBJECT_DIR = CMakeFiles/demo_x86_imageclassify.dir
+  OBJECT_FILE_DIR = CMakeFiles/demo_x86_imageclassify.dir/base
+
+build CMakeFiles/demo_x86_imageclassify.dir/base/sample_timer.cc.o: CXX_COMPILER__demo_x86_imageclassify_Debug /home/linxu/CLionProjects/TNN.Demo/base/sample_timer.cc || cmake_object_order_depends_target_demo_x86_imageclassify
+  DEFINES = -DGFLAGS_IS_A_DLL=0
+  DEP_FILE = CMakeFiles/demo_x86_imageclassify.dir/base/sample_timer.cc.o.d
+  FLAGS = -O3 -std=c++11 -pthread -fPIC -g -fdiagnostics-color=always -std=gnu++11
+  INCLUDES = -I/home/linxu/CLionProjects/TNN.Demo/third_party/gflags/include -I/home/linxu/CLionProjects/TNN.Demo/include -I/home/linxu/CLionProjects/TNN.Demo/base -I/home/linxu/CLionProjects/TNN.Demo/utils
+  OBJECT_DIR = CMakeFiles/demo_x86_imageclassify.dir
+  OBJECT_FILE_DIR = CMakeFiles/demo_x86_imageclassify.dir/base
+
+build CMakeFiles/demo_x86_imageclassify.dir/base/skeleton_detector.cc.o: CXX_COMPILER__demo_x86_imageclassify_Debug /home/linxu/CLionProjects/TNN.Demo/base/skeleton_detector.cc || cmake_object_order_depends_target_demo_x86_imageclassify
+  DEFINES = -DGFLAGS_IS_A_DLL=0
+  DEP_FILE = CMakeFiles/demo_x86_imageclassify.dir/base/skeleton_detector.cc.o.d
+  FLAGS = -O3 -std=c++11 -pthread -fPIC -g -fdiagnostics-color=always -std=gnu++11
+  INCLUDES = -I/home/linxu/CLionProjects/TNN.Demo/third_party/gflags/include -I/home/linxu/CLionProjects/TNN.Demo/include -I/home/linxu/CLionProjects/TNN.Demo/base -I/home/linxu/CLionProjects/TNN.Demo/utils
+  OBJECT_DIR = CMakeFiles/demo_x86_imageclassify.dir
+  OBJECT_FILE_DIR = CMakeFiles/demo_x86_imageclassify.dir/base
+
+build CMakeFiles/demo_x86_imageclassify.dir/base/tnn_fps_counter.cc.o: CXX_COMPILER__demo_x86_imageclassify_Debug /home/linxu/CLionProjects/TNN.Demo/base/tnn_fps_counter.cc || cmake_object_order_depends_target_demo_x86_imageclassify
+  DEFINES = -DGFLAGS_IS_A_DLL=0
+  DEP_FILE = CMakeFiles/demo_x86_imageclassify.dir/base/tnn_fps_counter.cc.o.d
+  FLAGS = -O3 -std=c++11 -pthread -fPIC -g -fdiagnostics-color=always -std=gnu++11
+  INCLUDES = -I/home/linxu/CLionProjects/TNN.Demo/third_party/gflags/include -I/home/linxu/CLionProjects/TNN.Demo/include -I/home/linxu/CLionProjects/TNN.Demo/base -I/home/linxu/CLionProjects/TNN.Demo/utils
+  OBJECT_DIR = CMakeFiles/demo_x86_imageclassify.dir
+  OBJECT_FILE_DIR = CMakeFiles/demo_x86_imageclassify.dir/base
+
+build CMakeFiles/demo_x86_imageclassify.dir/base/tnn_sdk_sample.cc.o: CXX_COMPILER__demo_x86_imageclassify_Debug /home/linxu/CLionProjects/TNN.Demo/base/tnn_sdk_sample.cc || cmake_object_order_depends_target_demo_x86_imageclassify
+  DEFINES = -DGFLAGS_IS_A_DLL=0
+  DEP_FILE = CMakeFiles/demo_x86_imageclassify.dir/base/tnn_sdk_sample.cc.o.d
+  FLAGS = -O3 -std=c++11 -pthread -fPIC -g -fdiagnostics-color=always -std=gnu++11
+  INCLUDES = -I/home/linxu/CLionProjects/TNN.Demo/third_party/gflags/include -I/home/linxu/CLionProjects/TNN.Demo/include -I/home/linxu/CLionProjects/TNN.Demo/base -I/home/linxu/CLionProjects/TNN.Demo/utils
+  OBJECT_DIR = CMakeFiles/demo_x86_imageclassify.dir
+  OBJECT_FILE_DIR = CMakeFiles/demo_x86_imageclassify.dir/base
+
+build CMakeFiles/demo_x86_imageclassify.dir/base/ultra_face_detector.cc.o: CXX_COMPILER__demo_x86_imageclassify_Debug /home/linxu/CLionProjects/TNN.Demo/base/ultra_face_detector.cc || cmake_object_order_depends_target_demo_x86_imageclassify
+  DEFINES = -DGFLAGS_IS_A_DLL=0
+  DEP_FILE = CMakeFiles/demo_x86_imageclassify.dir/base/ultra_face_detector.cc.o.d
+  FLAGS = -O3 -std=c++11 -pthread -fPIC -g -fdiagnostics-color=always -std=gnu++11
+  INCLUDES = -I/home/linxu/CLionProjects/TNN.Demo/third_party/gflags/include -I/home/linxu/CLionProjects/TNN.Demo/include -I/home/linxu/CLionProjects/TNN.Demo/base -I/home/linxu/CLionProjects/TNN.Demo/utils
+  OBJECT_DIR = CMakeFiles/demo_x86_imageclassify.dir
+  OBJECT_FILE_DIR = CMakeFiles/demo_x86_imageclassify.dir/base
+
+build CMakeFiles/demo_x86_imageclassify.dir/base/utils/utils.cc.o: CXX_COMPILER__demo_x86_imageclassify_Debug /home/linxu/CLionProjects/TNN.Demo/base/utils/utils.cc || cmake_object_order_depends_target_demo_x86_imageclassify
+  DEFINES = -DGFLAGS_IS_A_DLL=0
+  DEP_FILE = CMakeFiles/demo_x86_imageclassify.dir/base/utils/utils.cc.o.d
+  FLAGS = -O3 -std=c++11 -pthread -fPIC -g -fdiagnostics-color=always -std=gnu++11
+  INCLUDES = -I/home/linxu/CLionProjects/TNN.Demo/third_party/gflags/include -I/home/linxu/CLionProjects/TNN.Demo/include -I/home/linxu/CLionProjects/TNN.Demo/base -I/home/linxu/CLionProjects/TNN.Demo/utils
+  OBJECT_DIR = CMakeFiles/demo_x86_imageclassify.dir
+  OBJECT_FILE_DIR = CMakeFiles/demo_x86_imageclassify.dir/base/utils
+
+build CMakeFiles/demo_x86_imageclassify.dir/base/youtu_face_align.cc.o: CXX_COMPILER__demo_x86_imageclassify_Debug /home/linxu/CLionProjects/TNN.Demo/base/youtu_face_align.cc || cmake_object_order_depends_target_demo_x86_imageclassify
+  DEFINES = -DGFLAGS_IS_A_DLL=0
+  DEP_FILE = CMakeFiles/demo_x86_imageclassify.dir/base/youtu_face_align.cc.o.d
+  FLAGS = -O3 -std=c++11 -pthread -fPIC -g -fdiagnostics-color=always -std=gnu++11
+  INCLUDES = -I/home/linxu/CLionProjects/TNN.Demo/third_party/gflags/include -I/home/linxu/CLionProjects/TNN.Demo/include -I/home/linxu/CLionProjects/TNN.Demo/base -I/home/linxu/CLionProjects/TNN.Demo/utils
+  OBJECT_DIR = CMakeFiles/demo_x86_imageclassify.dir
+  OBJECT_FILE_DIR = CMakeFiles/demo_x86_imageclassify.dir/base
+
+build CMakeFiles/demo_x86_imageclassify.dir/utils/clipper.cc.o: CXX_COMPILER__demo_x86_imageclassify_Debug /home/linxu/CLionProjects/TNN.Demo/utils/clipper.cc || cmake_object_order_depends_target_demo_x86_imageclassify
+  DEFINES = -DGFLAGS_IS_A_DLL=0
+  DEP_FILE = CMakeFiles/demo_x86_imageclassify.dir/utils/clipper.cc.o.d
+  FLAGS = -O3 -std=c++11 -pthread -fPIC -g -fdiagnostics-color=always -std=gnu++11
+  INCLUDES = -I/home/linxu/CLionProjects/TNN.Demo/third_party/gflags/include -I/home/linxu/CLionProjects/TNN.Demo/include -I/home/linxu/CLionProjects/TNN.Demo/base -I/home/linxu/CLionProjects/TNN.Demo/utils
+  OBJECT_DIR = CMakeFiles/demo_x86_imageclassify.dir
+  OBJECT_FILE_DIR = CMakeFiles/demo_x86_imageclassify.dir/utils
+
+build CMakeFiles/demo_x86_imageclassify.dir/utils/landmark_smoothing_filter.cc.o: CXX_COMPILER__demo_x86_imageclassify_Debug /home/linxu/CLionProjects/TNN.Demo/utils/landmark_smoothing_filter.cc || cmake_object_order_depends_target_demo_x86_imageclassify
+  DEFINES = -DGFLAGS_IS_A_DLL=0
+  DEP_FILE = CMakeFiles/demo_x86_imageclassify.dir/utils/landmark_smoothing_filter.cc.o.d
+  FLAGS = -O3 -std=c++11 -pthread -fPIC -g -fdiagnostics-color=always -std=gnu++11
+  INCLUDES = -I/home/linxu/CLionProjects/TNN.Demo/third_party/gflags/include -I/home/linxu/CLionProjects/TNN.Demo/include -I/home/linxu/CLionProjects/TNN.Demo/base -I/home/linxu/CLionProjects/TNN.Demo/utils
+  OBJECT_DIR = CMakeFiles/demo_x86_imageclassify.dir
+  OBJECT_FILE_DIR = CMakeFiles/demo_x86_imageclassify.dir/utils
+
+build CMakeFiles/demo_x86_imageclassify.dir/utils/low_pass_filter.cc.o: CXX_COMPILER__demo_x86_imageclassify_Debug /home/linxu/CLionProjects/TNN.Demo/utils/low_pass_filter.cc || cmake_object_order_depends_target_demo_x86_imageclassify
+  DEFINES = -DGFLAGS_IS_A_DLL=0
+  DEP_FILE = CMakeFiles/demo_x86_imageclassify.dir/utils/low_pass_filter.cc.o.d
+  FLAGS = -O3 -std=c++11 -pthread -fPIC -g -fdiagnostics-color=always -std=gnu++11
+  INCLUDES = -I/home/linxu/CLionProjects/TNN.Demo/third_party/gflags/include -I/home/linxu/CLionProjects/TNN.Demo/include -I/home/linxu/CLionProjects/TNN.Demo/base -I/home/linxu/CLionProjects/TNN.Demo/utils
+  OBJECT_DIR = CMakeFiles/demo_x86_imageclassify.dir
+  OBJECT_FILE_DIR = CMakeFiles/demo_x86_imageclassify.dir/utils
+
+build CMakeFiles/demo_x86_imageclassify.dir/utils/relative_velocity_filter.cc.o: CXX_COMPILER__demo_x86_imageclassify_Debug /home/linxu/CLionProjects/TNN.Demo/utils/relative_velocity_filter.cc || cmake_object_order_depends_target_demo_x86_imageclassify
+  DEFINES = -DGFLAGS_IS_A_DLL=0
+  DEP_FILE = CMakeFiles/demo_x86_imageclassify.dir/utils/relative_velocity_filter.cc.o.d
+  FLAGS = -O3 -std=c++11 -pthread -fPIC -g -fdiagnostics-color=always -std=gnu++11
+  INCLUDES = -I/home/linxu/CLionProjects/TNN.Demo/third_party/gflags/include -I/home/linxu/CLionProjects/TNN.Demo/include -I/home/linxu/CLionProjects/TNN.Demo/base -I/home/linxu/CLionProjects/TNN.Demo/utils
+  OBJECT_DIR = CMakeFiles/demo_x86_imageclassify.dir
+  OBJECT_FILE_DIR = CMakeFiles/demo_x86_imageclassify.dir/utils
+
+build CMakeFiles/demo_x86_imageclassify.dir/utils/time_stamp.cc.o: CXX_COMPILER__demo_x86_imageclassify_Debug /home/linxu/CLionProjects/TNN.Demo/utils/time_stamp.cc || cmake_object_order_depends_target_demo_x86_imageclassify
+  DEFINES = -DGFLAGS_IS_A_DLL=0
+  DEP_FILE = CMakeFiles/demo_x86_imageclassify.dir/utils/time_stamp.cc.o.d
+  FLAGS = -O3 -std=c++11 -pthread -fPIC -g -fdiagnostics-color=always -std=gnu++11
+  INCLUDES = -I/home/linxu/CLionProjects/TNN.Demo/third_party/gflags/include -I/home/linxu/CLionProjects/TNN.Demo/include -I/home/linxu/CLionProjects/TNN.Demo/base -I/home/linxu/CLionProjects/TNN.Demo/utils
+  OBJECT_DIR = CMakeFiles/demo_x86_imageclassify.dir
+  OBJECT_FILE_DIR = CMakeFiles/demo_x86_imageclassify.dir/utils
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target demo_x86_imageclassify
+
+
+#############################################
+# Link the executable demo_x86_imageclassify
+
+build demo_x86_imageclassify: CXX_EXECUTABLE_LINKER__demo_x86_imageclassify_Debug CMakeFiles/demo_x86_imageclassify.dir/demo/src/TNNImageClassify/TNNImageClassify.cc.o CMakeFiles/demo_x86_imageclassify.dir/base/bert_tokenizer.cc.o CMakeFiles/demo_x86_imageclassify.dir/base/blazeface_detector.cc.o CMakeFiles/demo_x86_imageclassify.dir/base/blazepose_detector.cc.o CMakeFiles/demo_x86_imageclassify.dir/base/blazepose_landmark.cc.o CMakeFiles/demo_x86_imageclassify.dir/base/face_detect_aligner.cc.o CMakeFiles/demo_x86_imageclassify.dir/base/face_detect_mesh.cc.o CMakeFiles/demo_x86_imageclassify.dir/base/face_gray_transfer.cc.o CMakeFiles/demo_x86_imageclassify.dir/base/face_mesh.cc.o CMakeFiles/demo_x86_imageclassify.dir/base/hair_segmentation.cc.o CMakeFiles/demo_x86_imageclassify.dir/base/image_classifier.cc.o CMakeFiles/demo_x86_imageclassify.dir/base/monodepth.cc.o CMakeFiles/demo_x86_imageclassify.dir/base/object_detector_nanodet.cc.o CMakeFiles/demo_x86_imageclassify.dir/base/object_detector_ssd.cc.o CMakeFiles/demo_x86_imageclassify.dir/base/object_detector_yolo.cc.o CMakeFiles/demo_x86_imageclassify.dir/base/opengl_direct_mem_adapter.cc.o CMakeFiles/demo_x86_imageclassify.dir/base/pose_detect_landmark.cc.o CMakeFiles/demo_x86_imageclassify.dir/base/sample_timer.cc.o CMakeFiles/demo_x86_imageclassify.dir/base/skeleton_detector.cc.o CMakeFiles/demo_x86_imageclassify.dir/base/tnn_fps_counter.cc.o CMakeFiles/demo_x86_imageclassify.dir/base/tnn_sdk_sample.cc.o CMakeFiles/demo_x86_imageclassify.dir/base/ultra_face_detector.cc.o CMakeFiles/demo_x86_imageclassify.dir/base/utils/utils.cc.o CMakeFiles/demo_x86_imageclassify.dir/base/youtu_face_align.cc.o CMakeFiles/demo_x86_imageclassify.dir/utils/clipper.cc.o CMakeFiles/demo_x86_imageclassify.dir/utils/landmark_smoothing_filter.cc.o CMakeFiles/demo_x86_imageclassify.dir/utils/low_pass_filter.cc.o CMakeFiles/demo_x86_imageclassify.dir/utils/relative_velocity_filter.cc.o CMakeFiles/demo_x86_imageclassify.dir/utils/time_stamp.cc.o | /home/linxu/CLionProjects/TNN.Demo/third_party/gflags/libgflags_nothreads.a || /home/linxu/CLionProjects/TNN.Demo/third_party/gflags/libgflags_nothreads.a
+  FLAGS = -O3 -std=c++11 -pthread -fPIC -g
+  LINK_FLAGS = -rdynamic
+  LINK_LIBRARIES = -lTNN  /home/linxu/CLionProjects/TNN.Demo/third_party/gflags/libgflags_nothreads.a  -lTNN
+  OBJECT_DIR = CMakeFiles/demo_x86_imageclassify.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = demo_x86_imageclassify
+  TARGET_PDB = demo_x86_imageclassify.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target TNN-demo
 
 
@@ -53,9 +312,233 @@ build CMakeFiles/TNN-demo.dir/main.cpp.o: CXX_COMPILER__TNN-demo_Debug /home/lin
   DEFINES = -DGFLAGS_IS_A_DLL=0
   DEP_FILE = CMakeFiles/TNN-demo.dir/main.cpp.o.d
   FLAGS = -O3 -std=c++11 -pthread -fPIC -g -fdiagnostics-color=always -std=gnu++11
-  INCLUDES = -I/home/linxu/CLionProjects/TNN.Demo/third_party/gflags/include -I/usr/local/include/opencv4 -I/home/linxu/CLionProjects/TNN.Demo/include -I/home/linxu/CLionProjects/TNN.Demo/base -I/home/linxu/CLionProjects/TNN.Demo/utils
+  INCLUDES = -I/home/linxu/CLionProjects/TNN.Demo/third_party/gflags/include -I/home/linxu/CLionProjects/TNN.Demo/include -I/home/linxu/CLionProjects/TNN.Demo/base -I/home/linxu/CLionProjects/TNN.Demo/utils
   OBJECT_DIR = CMakeFiles/TNN-demo.dir
   OBJECT_FILE_DIR = CMakeFiles/TNN-demo.dir
+
+build CMakeFiles/TNN-demo.dir/base/bert_tokenizer.cc.o: CXX_COMPILER__TNN-demo_Debug /home/linxu/CLionProjects/TNN.Demo/base/bert_tokenizer.cc || cmake_object_order_depends_target_TNN-demo
+  DEFINES = -DGFLAGS_IS_A_DLL=0
+  DEP_FILE = CMakeFiles/TNN-demo.dir/base/bert_tokenizer.cc.o.d
+  FLAGS = -O3 -std=c++11 -pthread -fPIC -g -fdiagnostics-color=always -std=gnu++11
+  INCLUDES = -I/home/linxu/CLionProjects/TNN.Demo/third_party/gflags/include -I/home/linxu/CLionProjects/TNN.Demo/include -I/home/linxu/CLionProjects/TNN.Demo/base -I/home/linxu/CLionProjects/TNN.Demo/utils
+  OBJECT_DIR = CMakeFiles/TNN-demo.dir
+  OBJECT_FILE_DIR = CMakeFiles/TNN-demo.dir/base
+
+build CMakeFiles/TNN-demo.dir/base/blazeface_detector.cc.o: CXX_COMPILER__TNN-demo_Debug /home/linxu/CLionProjects/TNN.Demo/base/blazeface_detector.cc || cmake_object_order_depends_target_TNN-demo
+  DEFINES = -DGFLAGS_IS_A_DLL=0
+  DEP_FILE = CMakeFiles/TNN-demo.dir/base/blazeface_detector.cc.o.d
+  FLAGS = -O3 -std=c++11 -pthread -fPIC -g -fdiagnostics-color=always -std=gnu++11
+  INCLUDES = -I/home/linxu/CLionProjects/TNN.Demo/third_party/gflags/include -I/home/linxu/CLionProjects/TNN.Demo/include -I/home/linxu/CLionProjects/TNN.Demo/base -I/home/linxu/CLionProjects/TNN.Demo/utils
+  OBJECT_DIR = CMakeFiles/TNN-demo.dir
+  OBJECT_FILE_DIR = CMakeFiles/TNN-demo.dir/base
+
+build CMakeFiles/TNN-demo.dir/base/blazepose_detector.cc.o: CXX_COMPILER__TNN-demo_Debug /home/linxu/CLionProjects/TNN.Demo/base/blazepose_detector.cc || cmake_object_order_depends_target_TNN-demo
+  DEFINES = -DGFLAGS_IS_A_DLL=0
+  DEP_FILE = CMakeFiles/TNN-demo.dir/base/blazepose_detector.cc.o.d
+  FLAGS = -O3 -std=c++11 -pthread -fPIC -g -fdiagnostics-color=always -std=gnu++11
+  INCLUDES = -I/home/linxu/CLionProjects/TNN.Demo/third_party/gflags/include -I/home/linxu/CLionProjects/TNN.Demo/include -I/home/linxu/CLionProjects/TNN.Demo/base -I/home/linxu/CLionProjects/TNN.Demo/utils
+  OBJECT_DIR = CMakeFiles/TNN-demo.dir
+  OBJECT_FILE_DIR = CMakeFiles/TNN-demo.dir/base
+
+build CMakeFiles/TNN-demo.dir/base/blazepose_landmark.cc.o: CXX_COMPILER__TNN-demo_Debug /home/linxu/CLionProjects/TNN.Demo/base/blazepose_landmark.cc || cmake_object_order_depends_target_TNN-demo
+  DEFINES = -DGFLAGS_IS_A_DLL=0
+  DEP_FILE = CMakeFiles/TNN-demo.dir/base/blazepose_landmark.cc.o.d
+  FLAGS = -O3 -std=c++11 -pthread -fPIC -g -fdiagnostics-color=always -std=gnu++11
+  INCLUDES = -I/home/linxu/CLionProjects/TNN.Demo/third_party/gflags/include -I/home/linxu/CLionProjects/TNN.Demo/include -I/home/linxu/CLionProjects/TNN.Demo/base -I/home/linxu/CLionProjects/TNN.Demo/utils
+  OBJECT_DIR = CMakeFiles/TNN-demo.dir
+  OBJECT_FILE_DIR = CMakeFiles/TNN-demo.dir/base
+
+build CMakeFiles/TNN-demo.dir/base/face_detect_aligner.cc.o: CXX_COMPILER__TNN-demo_Debug /home/linxu/CLionProjects/TNN.Demo/base/face_detect_aligner.cc || cmake_object_order_depends_target_TNN-demo
+  DEFINES = -DGFLAGS_IS_A_DLL=0
+  DEP_FILE = CMakeFiles/TNN-demo.dir/base/face_detect_aligner.cc.o.d
+  FLAGS = -O3 -std=c++11 -pthread -fPIC -g -fdiagnostics-color=always -std=gnu++11
+  INCLUDES = -I/home/linxu/CLionProjects/TNN.Demo/third_party/gflags/include -I/home/linxu/CLionProjects/TNN.Demo/include -I/home/linxu/CLionProjects/TNN.Demo/base -I/home/linxu/CLionProjects/TNN.Demo/utils
+  OBJECT_DIR = CMakeFiles/TNN-demo.dir
+  OBJECT_FILE_DIR = CMakeFiles/TNN-demo.dir/base
+
+build CMakeFiles/TNN-demo.dir/base/face_detect_mesh.cc.o: CXX_COMPILER__TNN-demo_Debug /home/linxu/CLionProjects/TNN.Demo/base/face_detect_mesh.cc || cmake_object_order_depends_target_TNN-demo
+  DEFINES = -DGFLAGS_IS_A_DLL=0
+  DEP_FILE = CMakeFiles/TNN-demo.dir/base/face_detect_mesh.cc.o.d
+  FLAGS = -O3 -std=c++11 -pthread -fPIC -g -fdiagnostics-color=always -std=gnu++11
+  INCLUDES = -I/home/linxu/CLionProjects/TNN.Demo/third_party/gflags/include -I/home/linxu/CLionProjects/TNN.Demo/include -I/home/linxu/CLionProjects/TNN.Demo/base -I/home/linxu/CLionProjects/TNN.Demo/utils
+  OBJECT_DIR = CMakeFiles/TNN-demo.dir
+  OBJECT_FILE_DIR = CMakeFiles/TNN-demo.dir/base
+
+build CMakeFiles/TNN-demo.dir/base/face_gray_transfer.cc.o: CXX_COMPILER__TNN-demo_Debug /home/linxu/CLionProjects/TNN.Demo/base/face_gray_transfer.cc || cmake_object_order_depends_target_TNN-demo
+  DEFINES = -DGFLAGS_IS_A_DLL=0
+  DEP_FILE = CMakeFiles/TNN-demo.dir/base/face_gray_transfer.cc.o.d
+  FLAGS = -O3 -std=c++11 -pthread -fPIC -g -fdiagnostics-color=always -std=gnu++11
+  INCLUDES = -I/home/linxu/CLionProjects/TNN.Demo/third_party/gflags/include -I/home/linxu/CLionProjects/TNN.Demo/include -I/home/linxu/CLionProjects/TNN.Demo/base -I/home/linxu/CLionProjects/TNN.Demo/utils
+  OBJECT_DIR = CMakeFiles/TNN-demo.dir
+  OBJECT_FILE_DIR = CMakeFiles/TNN-demo.dir/base
+
+build CMakeFiles/TNN-demo.dir/base/face_mesh.cc.o: CXX_COMPILER__TNN-demo_Debug /home/linxu/CLionProjects/TNN.Demo/base/face_mesh.cc || cmake_object_order_depends_target_TNN-demo
+  DEFINES = -DGFLAGS_IS_A_DLL=0
+  DEP_FILE = CMakeFiles/TNN-demo.dir/base/face_mesh.cc.o.d
+  FLAGS = -O3 -std=c++11 -pthread -fPIC -g -fdiagnostics-color=always -std=gnu++11
+  INCLUDES = -I/home/linxu/CLionProjects/TNN.Demo/third_party/gflags/include -I/home/linxu/CLionProjects/TNN.Demo/include -I/home/linxu/CLionProjects/TNN.Demo/base -I/home/linxu/CLionProjects/TNN.Demo/utils
+  OBJECT_DIR = CMakeFiles/TNN-demo.dir
+  OBJECT_FILE_DIR = CMakeFiles/TNN-demo.dir/base
+
+build CMakeFiles/TNN-demo.dir/base/hair_segmentation.cc.o: CXX_COMPILER__TNN-demo_Debug /home/linxu/CLionProjects/TNN.Demo/base/hair_segmentation.cc || cmake_object_order_depends_target_TNN-demo
+  DEFINES = -DGFLAGS_IS_A_DLL=0
+  DEP_FILE = CMakeFiles/TNN-demo.dir/base/hair_segmentation.cc.o.d
+  FLAGS = -O3 -std=c++11 -pthread -fPIC -g -fdiagnostics-color=always -std=gnu++11
+  INCLUDES = -I/home/linxu/CLionProjects/TNN.Demo/third_party/gflags/include -I/home/linxu/CLionProjects/TNN.Demo/include -I/home/linxu/CLionProjects/TNN.Demo/base -I/home/linxu/CLionProjects/TNN.Demo/utils
+  OBJECT_DIR = CMakeFiles/TNN-demo.dir
+  OBJECT_FILE_DIR = CMakeFiles/TNN-demo.dir/base
+
+build CMakeFiles/TNN-demo.dir/base/image_classifier.cc.o: CXX_COMPILER__TNN-demo_Debug /home/linxu/CLionProjects/TNN.Demo/base/image_classifier.cc || cmake_object_order_depends_target_TNN-demo
+  DEFINES = -DGFLAGS_IS_A_DLL=0
+  DEP_FILE = CMakeFiles/TNN-demo.dir/base/image_classifier.cc.o.d
+  FLAGS = -O3 -std=c++11 -pthread -fPIC -g -fdiagnostics-color=always -std=gnu++11
+  INCLUDES = -I/home/linxu/CLionProjects/TNN.Demo/third_party/gflags/include -I/home/linxu/CLionProjects/TNN.Demo/include -I/home/linxu/CLionProjects/TNN.Demo/base -I/home/linxu/CLionProjects/TNN.Demo/utils
+  OBJECT_DIR = CMakeFiles/TNN-demo.dir
+  OBJECT_FILE_DIR = CMakeFiles/TNN-demo.dir/base
+
+build CMakeFiles/TNN-demo.dir/base/monodepth.cc.o: CXX_COMPILER__TNN-demo_Debug /home/linxu/CLionProjects/TNN.Demo/base/monodepth.cc || cmake_object_order_depends_target_TNN-demo
+  DEFINES = -DGFLAGS_IS_A_DLL=0
+  DEP_FILE = CMakeFiles/TNN-demo.dir/base/monodepth.cc.o.d
+  FLAGS = -O3 -std=c++11 -pthread -fPIC -g -fdiagnostics-color=always -std=gnu++11
+  INCLUDES = -I/home/linxu/CLionProjects/TNN.Demo/third_party/gflags/include -I/home/linxu/CLionProjects/TNN.Demo/include -I/home/linxu/CLionProjects/TNN.Demo/base -I/home/linxu/CLionProjects/TNN.Demo/utils
+  OBJECT_DIR = CMakeFiles/TNN-demo.dir
+  OBJECT_FILE_DIR = CMakeFiles/TNN-demo.dir/base
+
+build CMakeFiles/TNN-demo.dir/base/object_detector_nanodet.cc.o: CXX_COMPILER__TNN-demo_Debug /home/linxu/CLionProjects/TNN.Demo/base/object_detector_nanodet.cc || cmake_object_order_depends_target_TNN-demo
+  DEFINES = -DGFLAGS_IS_A_DLL=0
+  DEP_FILE = CMakeFiles/TNN-demo.dir/base/object_detector_nanodet.cc.o.d
+  FLAGS = -O3 -std=c++11 -pthread -fPIC -g -fdiagnostics-color=always -std=gnu++11
+  INCLUDES = -I/home/linxu/CLionProjects/TNN.Demo/third_party/gflags/include -I/home/linxu/CLionProjects/TNN.Demo/include -I/home/linxu/CLionProjects/TNN.Demo/base -I/home/linxu/CLionProjects/TNN.Demo/utils
+  OBJECT_DIR = CMakeFiles/TNN-demo.dir
+  OBJECT_FILE_DIR = CMakeFiles/TNN-demo.dir/base
+
+build CMakeFiles/TNN-demo.dir/base/object_detector_ssd.cc.o: CXX_COMPILER__TNN-demo_Debug /home/linxu/CLionProjects/TNN.Demo/base/object_detector_ssd.cc || cmake_object_order_depends_target_TNN-demo
+  DEFINES = -DGFLAGS_IS_A_DLL=0
+  DEP_FILE = CMakeFiles/TNN-demo.dir/base/object_detector_ssd.cc.o.d
+  FLAGS = -O3 -std=c++11 -pthread -fPIC -g -fdiagnostics-color=always -std=gnu++11
+  INCLUDES = -I/home/linxu/CLionProjects/TNN.Demo/third_party/gflags/include -I/home/linxu/CLionProjects/TNN.Demo/include -I/home/linxu/CLionProjects/TNN.Demo/base -I/home/linxu/CLionProjects/TNN.Demo/utils
+  OBJECT_DIR = CMakeFiles/TNN-demo.dir
+  OBJECT_FILE_DIR = CMakeFiles/TNN-demo.dir/base
+
+build CMakeFiles/TNN-demo.dir/base/object_detector_yolo.cc.o: CXX_COMPILER__TNN-demo_Debug /home/linxu/CLionProjects/TNN.Demo/base/object_detector_yolo.cc || cmake_object_order_depends_target_TNN-demo
+  DEFINES = -DGFLAGS_IS_A_DLL=0
+  DEP_FILE = CMakeFiles/TNN-demo.dir/base/object_detector_yolo.cc.o.d
+  FLAGS = -O3 -std=c++11 -pthread -fPIC -g -fdiagnostics-color=always -std=gnu++11
+  INCLUDES = -I/home/linxu/CLionProjects/TNN.Demo/third_party/gflags/include -I/home/linxu/CLionProjects/TNN.Demo/include -I/home/linxu/CLionProjects/TNN.Demo/base -I/home/linxu/CLionProjects/TNN.Demo/utils
+  OBJECT_DIR = CMakeFiles/TNN-demo.dir
+  OBJECT_FILE_DIR = CMakeFiles/TNN-demo.dir/base
+
+build CMakeFiles/TNN-demo.dir/base/opengl_direct_mem_adapter.cc.o: CXX_COMPILER__TNN-demo_Debug /home/linxu/CLionProjects/TNN.Demo/base/opengl_direct_mem_adapter.cc || cmake_object_order_depends_target_TNN-demo
+  DEFINES = -DGFLAGS_IS_A_DLL=0
+  DEP_FILE = CMakeFiles/TNN-demo.dir/base/opengl_direct_mem_adapter.cc.o.d
+  FLAGS = -O3 -std=c++11 -pthread -fPIC -g -fdiagnostics-color=always -std=gnu++11
+  INCLUDES = -I/home/linxu/CLionProjects/TNN.Demo/third_party/gflags/include -I/home/linxu/CLionProjects/TNN.Demo/include -I/home/linxu/CLionProjects/TNN.Demo/base -I/home/linxu/CLionProjects/TNN.Demo/utils
+  OBJECT_DIR = CMakeFiles/TNN-demo.dir
+  OBJECT_FILE_DIR = CMakeFiles/TNN-demo.dir/base
+
+build CMakeFiles/TNN-demo.dir/base/pose_detect_landmark.cc.o: CXX_COMPILER__TNN-demo_Debug /home/linxu/CLionProjects/TNN.Demo/base/pose_detect_landmark.cc || cmake_object_order_depends_target_TNN-demo
+  DEFINES = -DGFLAGS_IS_A_DLL=0
+  DEP_FILE = CMakeFiles/TNN-demo.dir/base/pose_detect_landmark.cc.o.d
+  FLAGS = -O3 -std=c++11 -pthread -fPIC -g -fdiagnostics-color=always -std=gnu++11
+  INCLUDES = -I/home/linxu/CLionProjects/TNN.Demo/third_party/gflags/include -I/home/linxu/CLionProjects/TNN.Demo/include -I/home/linxu/CLionProjects/TNN.Demo/base -I/home/linxu/CLionProjects/TNN.Demo/utils
+  OBJECT_DIR = CMakeFiles/TNN-demo.dir
+  OBJECT_FILE_DIR = CMakeFiles/TNN-demo.dir/base
+
+build CMakeFiles/TNN-demo.dir/base/sample_timer.cc.o: CXX_COMPILER__TNN-demo_Debug /home/linxu/CLionProjects/TNN.Demo/base/sample_timer.cc || cmake_object_order_depends_target_TNN-demo
+  DEFINES = -DGFLAGS_IS_A_DLL=0
+  DEP_FILE = CMakeFiles/TNN-demo.dir/base/sample_timer.cc.o.d
+  FLAGS = -O3 -std=c++11 -pthread -fPIC -g -fdiagnostics-color=always -std=gnu++11
+  INCLUDES = -I/home/linxu/CLionProjects/TNN.Demo/third_party/gflags/include -I/home/linxu/CLionProjects/TNN.Demo/include -I/home/linxu/CLionProjects/TNN.Demo/base -I/home/linxu/CLionProjects/TNN.Demo/utils
+  OBJECT_DIR = CMakeFiles/TNN-demo.dir
+  OBJECT_FILE_DIR = CMakeFiles/TNN-demo.dir/base
+
+build CMakeFiles/TNN-demo.dir/base/skeleton_detector.cc.o: CXX_COMPILER__TNN-demo_Debug /home/linxu/CLionProjects/TNN.Demo/base/skeleton_detector.cc || cmake_object_order_depends_target_TNN-demo
+  DEFINES = -DGFLAGS_IS_A_DLL=0
+  DEP_FILE = CMakeFiles/TNN-demo.dir/base/skeleton_detector.cc.o.d
+  FLAGS = -O3 -std=c++11 -pthread -fPIC -g -fdiagnostics-color=always -std=gnu++11
+  INCLUDES = -I/home/linxu/CLionProjects/TNN.Demo/third_party/gflags/include -I/home/linxu/CLionProjects/TNN.Demo/include -I/home/linxu/CLionProjects/TNN.Demo/base -I/home/linxu/CLionProjects/TNN.Demo/utils
+  OBJECT_DIR = CMakeFiles/TNN-demo.dir
+  OBJECT_FILE_DIR = CMakeFiles/TNN-demo.dir/base
+
+build CMakeFiles/TNN-demo.dir/base/tnn_fps_counter.cc.o: CXX_COMPILER__TNN-demo_Debug /home/linxu/CLionProjects/TNN.Demo/base/tnn_fps_counter.cc || cmake_object_order_depends_target_TNN-demo
+  DEFINES = -DGFLAGS_IS_A_DLL=0
+  DEP_FILE = CMakeFiles/TNN-demo.dir/base/tnn_fps_counter.cc.o.d
+  FLAGS = -O3 -std=c++11 -pthread -fPIC -g -fdiagnostics-color=always -std=gnu++11
+  INCLUDES = -I/home/linxu/CLionProjects/TNN.Demo/third_party/gflags/include -I/home/linxu/CLionProjects/TNN.Demo/include -I/home/linxu/CLionProjects/TNN.Demo/base -I/home/linxu/CLionProjects/TNN.Demo/utils
+  OBJECT_DIR = CMakeFiles/TNN-demo.dir
+  OBJECT_FILE_DIR = CMakeFiles/TNN-demo.dir/base
+
+build CMakeFiles/TNN-demo.dir/base/tnn_sdk_sample.cc.o: CXX_COMPILER__TNN-demo_Debug /home/linxu/CLionProjects/TNN.Demo/base/tnn_sdk_sample.cc || cmake_object_order_depends_target_TNN-demo
+  DEFINES = -DGFLAGS_IS_A_DLL=0
+  DEP_FILE = CMakeFiles/TNN-demo.dir/base/tnn_sdk_sample.cc.o.d
+  FLAGS = -O3 -std=c++11 -pthread -fPIC -g -fdiagnostics-color=always -std=gnu++11
+  INCLUDES = -I/home/linxu/CLionProjects/TNN.Demo/third_party/gflags/include -I/home/linxu/CLionProjects/TNN.Demo/include -I/home/linxu/CLionProjects/TNN.Demo/base -I/home/linxu/CLionProjects/TNN.Demo/utils
+  OBJECT_DIR = CMakeFiles/TNN-demo.dir
+  OBJECT_FILE_DIR = CMakeFiles/TNN-demo.dir/base
+
+build CMakeFiles/TNN-demo.dir/base/ultra_face_detector.cc.o: CXX_COMPILER__TNN-demo_Debug /home/linxu/CLionProjects/TNN.Demo/base/ultra_face_detector.cc || cmake_object_order_depends_target_TNN-demo
+  DEFINES = -DGFLAGS_IS_A_DLL=0
+  DEP_FILE = CMakeFiles/TNN-demo.dir/base/ultra_face_detector.cc.o.d
+  FLAGS = -O3 -std=c++11 -pthread -fPIC -g -fdiagnostics-color=always -std=gnu++11
+  INCLUDES = -I/home/linxu/CLionProjects/TNN.Demo/third_party/gflags/include -I/home/linxu/CLionProjects/TNN.Demo/include -I/home/linxu/CLionProjects/TNN.Demo/base -I/home/linxu/CLionProjects/TNN.Demo/utils
+  OBJECT_DIR = CMakeFiles/TNN-demo.dir
+  OBJECT_FILE_DIR = CMakeFiles/TNN-demo.dir/base
+
+build CMakeFiles/TNN-demo.dir/base/utils/utils.cc.o: CXX_COMPILER__TNN-demo_Debug /home/linxu/CLionProjects/TNN.Demo/base/utils/utils.cc || cmake_object_order_depends_target_TNN-demo
+  DEFINES = -DGFLAGS_IS_A_DLL=0
+  DEP_FILE = CMakeFiles/TNN-demo.dir/base/utils/utils.cc.o.d
+  FLAGS = -O3 -std=c++11 -pthread -fPIC -g -fdiagnostics-color=always -std=gnu++11
+  INCLUDES = -I/home/linxu/CLionProjects/TNN.Demo/third_party/gflags/include -I/home/linxu/CLionProjects/TNN.Demo/include -I/home/linxu/CLionProjects/TNN.Demo/base -I/home/linxu/CLionProjects/TNN.Demo/utils
+  OBJECT_DIR = CMakeFiles/TNN-demo.dir
+  OBJECT_FILE_DIR = CMakeFiles/TNN-demo.dir/base/utils
+
+build CMakeFiles/TNN-demo.dir/base/youtu_face_align.cc.o: CXX_COMPILER__TNN-demo_Debug /home/linxu/CLionProjects/TNN.Demo/base/youtu_face_align.cc || cmake_object_order_depends_target_TNN-demo
+  DEFINES = -DGFLAGS_IS_A_DLL=0
+  DEP_FILE = CMakeFiles/TNN-demo.dir/base/youtu_face_align.cc.o.d
+  FLAGS = -O3 -std=c++11 -pthread -fPIC -g -fdiagnostics-color=always -std=gnu++11
+  INCLUDES = -I/home/linxu/CLionProjects/TNN.Demo/third_party/gflags/include -I/home/linxu/CLionProjects/TNN.Demo/include -I/home/linxu/CLionProjects/TNN.Demo/base -I/home/linxu/CLionProjects/TNN.Demo/utils
+  OBJECT_DIR = CMakeFiles/TNN-demo.dir
+  OBJECT_FILE_DIR = CMakeFiles/TNN-demo.dir/base
+
+build CMakeFiles/TNN-demo.dir/utils/clipper.cc.o: CXX_COMPILER__TNN-demo_Debug /home/linxu/CLionProjects/TNN.Demo/utils/clipper.cc || cmake_object_order_depends_target_TNN-demo
+  DEFINES = -DGFLAGS_IS_A_DLL=0
+  DEP_FILE = CMakeFiles/TNN-demo.dir/utils/clipper.cc.o.d
+  FLAGS = -O3 -std=c++11 -pthread -fPIC -g -fdiagnostics-color=always -std=gnu++11
+  INCLUDES = -I/home/linxu/CLionProjects/TNN.Demo/third_party/gflags/include -I/home/linxu/CLionProjects/TNN.Demo/include -I/home/linxu/CLionProjects/TNN.Demo/base -I/home/linxu/CLionProjects/TNN.Demo/utils
+  OBJECT_DIR = CMakeFiles/TNN-demo.dir
+  OBJECT_FILE_DIR = CMakeFiles/TNN-demo.dir/utils
+
+build CMakeFiles/TNN-demo.dir/utils/landmark_smoothing_filter.cc.o: CXX_COMPILER__TNN-demo_Debug /home/linxu/CLionProjects/TNN.Demo/utils/landmark_smoothing_filter.cc || cmake_object_order_depends_target_TNN-demo
+  DEFINES = -DGFLAGS_IS_A_DLL=0
+  DEP_FILE = CMakeFiles/TNN-demo.dir/utils/landmark_smoothing_filter.cc.o.d
+  FLAGS = -O3 -std=c++11 -pthread -fPIC -g -fdiagnostics-color=always -std=gnu++11
+  INCLUDES = -I/home/linxu/CLionProjects/TNN.Demo/third_party/gflags/include -I/home/linxu/CLionProjects/TNN.Demo/include -I/home/linxu/CLionProjects/TNN.Demo/base -I/home/linxu/CLionProjects/TNN.Demo/utils
+  OBJECT_DIR = CMakeFiles/TNN-demo.dir
+  OBJECT_FILE_DIR = CMakeFiles/TNN-demo.dir/utils
+
+build CMakeFiles/TNN-demo.dir/utils/low_pass_filter.cc.o: CXX_COMPILER__TNN-demo_Debug /home/linxu/CLionProjects/TNN.Demo/utils/low_pass_filter.cc || cmake_object_order_depends_target_TNN-demo
+  DEFINES = -DGFLAGS_IS_A_DLL=0
+  DEP_FILE = CMakeFiles/TNN-demo.dir/utils/low_pass_filter.cc.o.d
+  FLAGS = -O3 -std=c++11 -pthread -fPIC -g -fdiagnostics-color=always -std=gnu++11
+  INCLUDES = -I/home/linxu/CLionProjects/TNN.Demo/third_party/gflags/include -I/home/linxu/CLionProjects/TNN.Demo/include -I/home/linxu/CLionProjects/TNN.Demo/base -I/home/linxu/CLionProjects/TNN.Demo/utils
+  OBJECT_DIR = CMakeFiles/TNN-demo.dir
+  OBJECT_FILE_DIR = CMakeFiles/TNN-demo.dir/utils
+
+build CMakeFiles/TNN-demo.dir/utils/relative_velocity_filter.cc.o: CXX_COMPILER__TNN-demo_Debug /home/linxu/CLionProjects/TNN.Demo/utils/relative_velocity_filter.cc || cmake_object_order_depends_target_TNN-demo
+  DEFINES = -DGFLAGS_IS_A_DLL=0
+  DEP_FILE = CMakeFiles/TNN-demo.dir/utils/relative_velocity_filter.cc.o.d
+  FLAGS = -O3 -std=c++11 -pthread -fPIC -g -fdiagnostics-color=always -std=gnu++11
+  INCLUDES = -I/home/linxu/CLionProjects/TNN.Demo/third_party/gflags/include -I/home/linxu/CLionProjects/TNN.Demo/include -I/home/linxu/CLionProjects/TNN.Demo/base -I/home/linxu/CLionProjects/TNN.Demo/utils
+  OBJECT_DIR = CMakeFiles/TNN-demo.dir
+  OBJECT_FILE_DIR = CMakeFiles/TNN-demo.dir/utils
+
+build CMakeFiles/TNN-demo.dir/utils/time_stamp.cc.o: CXX_COMPILER__TNN-demo_Debug /home/linxu/CLionProjects/TNN.Demo/utils/time_stamp.cc || cmake_object_order_depends_target_TNN-demo
+  DEFINES = -DGFLAGS_IS_A_DLL=0
+  DEP_FILE = CMakeFiles/TNN-demo.dir/utils/time_stamp.cc.o.d
+  FLAGS = -O3 -std=c++11 -pthread -fPIC -g -fdiagnostics-color=always -std=gnu++11
+  INCLUDES = -I/home/linxu/CLionProjects/TNN.Demo/third_party/gflags/include -I/home/linxu/CLionProjects/TNN.Demo/include -I/home/linxu/CLionProjects/TNN.Demo/base -I/home/linxu/CLionProjects/TNN.Demo/utils
+  OBJECT_DIR = CMakeFiles/TNN-demo.dir
+  OBJECT_FILE_DIR = CMakeFiles/TNN-demo.dir/utils
 
 
 # =============================================================================
@@ -65,11 +548,10 @@ build CMakeFiles/TNN-demo.dir/main.cpp.o: CXX_COMPILER__TNN-demo_Debug /home/lin
 #############################################
 # Link the executable TNN-demo
 
-build TNN-demo: CXX_EXECUTABLE_LINKER__TNN-demo_Debug CMakeFiles/TNN-demo.dir/main.cpp.o | /home/linxu/CLionProjects/TNN.Demo/third_party/gflags/libgflags_nothreads.a || /home/linxu/CLionProjects/TNN.Demo/third_party/gflags/libgflags_nothreads.a
+build TNN-demo: CXX_EXECUTABLE_LINKER__TNN-demo_Debug CMakeFiles/TNN-demo.dir/main.cpp.o CMakeFiles/TNN-demo.dir/base/bert_tokenizer.cc.o CMakeFiles/TNN-demo.dir/base/blazeface_detector.cc.o CMakeFiles/TNN-demo.dir/base/blazepose_detector.cc.o CMakeFiles/TNN-demo.dir/base/blazepose_landmark.cc.o CMakeFiles/TNN-demo.dir/base/face_detect_aligner.cc.o CMakeFiles/TNN-demo.dir/base/face_detect_mesh.cc.o CMakeFiles/TNN-demo.dir/base/face_gray_transfer.cc.o CMakeFiles/TNN-demo.dir/base/face_mesh.cc.o CMakeFiles/TNN-demo.dir/base/hair_segmentation.cc.o CMakeFiles/TNN-demo.dir/base/image_classifier.cc.o CMakeFiles/TNN-demo.dir/base/monodepth.cc.o CMakeFiles/TNN-demo.dir/base/object_detector_nanodet.cc.o CMakeFiles/TNN-demo.dir/base/object_detector_ssd.cc.o CMakeFiles/TNN-demo.dir/base/object_detector_yolo.cc.o CMakeFiles/TNN-demo.dir/base/opengl_direct_mem_adapter.cc.o CMakeFiles/TNN-demo.dir/base/pose_detect_landmark.cc.o CMakeFiles/TNN-demo.dir/base/sample_timer.cc.o CMakeFiles/TNN-demo.dir/base/skeleton_detector.cc.o CMakeFiles/TNN-demo.dir/base/tnn_fps_counter.cc.o CMakeFiles/TNN-demo.dir/base/tnn_sdk_sample.cc.o CMakeFiles/TNN-demo.dir/base/ultra_face_detector.cc.o CMakeFiles/TNN-demo.dir/base/utils/utils.cc.o CMakeFiles/TNN-demo.dir/base/youtu_face_align.cc.o CMakeFiles/TNN-demo.dir/utils/clipper.cc.o CMakeFiles/TNN-demo.dir/utils/landmark_smoothing_filter.cc.o CMakeFiles/TNN-demo.dir/utils/low_pass_filter.cc.o CMakeFiles/TNN-demo.dir/utils/relative_velocity_filter.cc.o CMakeFiles/TNN-demo.dir/utils/time_stamp.cc.o | /home/linxu/CLionProjects/TNN.Demo/third_party/gflags/libgflags_nothreads.a || /home/linxu/CLionProjects/TNN.Demo/third_party/gflags/libgflags_nothreads.a
   FLAGS = -O3 -std=c++11 -pthread -fPIC -g
   LINK_FLAGS = -rdynamic
-  LINK_LIBRARIES = -Wl,-rpath,/home/linxu/CLionProjects/TNN.Demo/third_party/tnn_x86_lib/build_linux_native  -lTNN  /home/linxu/CLionProjects/TNN.Demo/third_party/gflags/libgflags_nothreads.a  -lTNN
-  LINK_PATH = -L/home/linxu/CLionProjects/TNN.Demo/third_party/tnn_x86_lib/build_linux_native
+  LINK_LIBRARIES = -lTNN  /home/linxu/CLionProjects/TNN.Demo/third_party/gflags/libgflags_nothreads.a  -lTNN
   OBJECT_DIR = CMakeFiles/TNN-demo.dir
   POST_BUILD = :
   PRE_LINK = :
@@ -159,7 +641,7 @@ build /home/linxu/CLionProjects/TNN.Demo/third_party/gflags/CMakeFiles/gflags_no
   DEFINES = -DGFLAGS_IS_A_DLL=0 -DNO_THREADS
   DEP_FILE = /home/linxu/CLionProjects/TNN.Demo/third_party/gflags/CMakeFiles/gflags_nothreads_static.dir/src/gflags.cc.o.d
   FLAGS = -O3 -std=c++11 -pthread -fPIC -g -fdiagnostics-color=always -std=gnu++11
-  INCLUDES = -I/usr/local/include/opencv4 -I/home/linxu/CLionProjects/TNN.Demo/include -I/home/linxu/CLionProjects/TNN.Demo/base -I/home/linxu/CLionProjects/TNN.Demo/utils -I/home/linxu/CLionProjects/TNN.Demo/third_party/gflags/include -I/home/linxu/CLionProjects/TNN.Demo/third_party/gflags/src -I/home/linxu/CLionProjects/TNN.Demo/third_party/gflags/include/gflags
+  INCLUDES = -I/home/linxu/CLionProjects/TNN.Demo/include -I/home/linxu/CLionProjects/TNN.Demo/base -I/home/linxu/CLionProjects/TNN.Demo/utils -I/home/linxu/CLionProjects/TNN.Demo/third_party/gflags/include -I/home/linxu/CLionProjects/TNN.Demo/third_party/gflags/src -I/home/linxu/CLionProjects/TNN.Demo/third_party/gflags/include/gflags
   OBJECT_DIR = /home/linxu/CLionProjects/TNN.Demo/third_party/gflags/CMakeFiles/gflags_nothreads_static.dir
   OBJECT_FILE_DIR = /home/linxu/CLionProjects/TNN.Demo/third_party/gflags/CMakeFiles/gflags_nothreads_static.dir/src
 
@@ -167,7 +649,7 @@ build /home/linxu/CLionProjects/TNN.Demo/third_party/gflags/CMakeFiles/gflags_no
   DEFINES = -DGFLAGS_IS_A_DLL=0 -DNO_THREADS
   DEP_FILE = /home/linxu/CLionProjects/TNN.Demo/third_party/gflags/CMakeFiles/gflags_nothreads_static.dir/src/gflags_reporting.cc.o.d
   FLAGS = -O3 -std=c++11 -pthread -fPIC -g -fdiagnostics-color=always -std=gnu++11
-  INCLUDES = -I/usr/local/include/opencv4 -I/home/linxu/CLionProjects/TNN.Demo/include -I/home/linxu/CLionProjects/TNN.Demo/base -I/home/linxu/CLionProjects/TNN.Demo/utils -I/home/linxu/CLionProjects/TNN.Demo/third_party/gflags/include -I/home/linxu/CLionProjects/TNN.Demo/third_party/gflags/src -I/home/linxu/CLionProjects/TNN.Demo/third_party/gflags/include/gflags
+  INCLUDES = -I/home/linxu/CLionProjects/TNN.Demo/include -I/home/linxu/CLionProjects/TNN.Demo/base -I/home/linxu/CLionProjects/TNN.Demo/utils -I/home/linxu/CLionProjects/TNN.Demo/third_party/gflags/include -I/home/linxu/CLionProjects/TNN.Demo/third_party/gflags/src -I/home/linxu/CLionProjects/TNN.Demo/third_party/gflags/include/gflags
   OBJECT_DIR = /home/linxu/CLionProjects/TNN.Demo/third_party/gflags/CMakeFiles/gflags_nothreads_static.dir
   OBJECT_FILE_DIR = /home/linxu/CLionProjects/TNN.Demo/third_party/gflags/CMakeFiles/gflags_nothreads_static.dir/src
 
@@ -175,7 +657,7 @@ build /home/linxu/CLionProjects/TNN.Demo/third_party/gflags/CMakeFiles/gflags_no
   DEFINES = -DGFLAGS_IS_A_DLL=0 -DNO_THREADS
   DEP_FILE = /home/linxu/CLionProjects/TNN.Demo/third_party/gflags/CMakeFiles/gflags_nothreads_static.dir/src/gflags_completions.cc.o.d
   FLAGS = -O3 -std=c++11 -pthread -fPIC -g -fdiagnostics-color=always -std=gnu++11
-  INCLUDES = -I/usr/local/include/opencv4 -I/home/linxu/CLionProjects/TNN.Demo/include -I/home/linxu/CLionProjects/TNN.Demo/base -I/home/linxu/CLionProjects/TNN.Demo/utils -I/home/linxu/CLionProjects/TNN.Demo/third_party/gflags/include -I/home/linxu/CLionProjects/TNN.Demo/third_party/gflags/src -I/home/linxu/CLionProjects/TNN.Demo/third_party/gflags/include/gflags
+  INCLUDES = -I/home/linxu/CLionProjects/TNN.Demo/include -I/home/linxu/CLionProjects/TNN.Demo/base -I/home/linxu/CLionProjects/TNN.Demo/utils -I/home/linxu/CLionProjects/TNN.Demo/third_party/gflags/include -I/home/linxu/CLionProjects/TNN.Demo/third_party/gflags/src -I/home/linxu/CLionProjects/TNN.Demo/third_party/gflags/include/gflags
   OBJECT_DIR = /home/linxu/CLionProjects/TNN.Demo/third_party/gflags/CMakeFiles/gflags_nothreads_static.dir
   OBJECT_FILE_DIR = /home/linxu/CLionProjects/TNN.Demo/third_party/gflags/CMakeFiles/gflags_nothreads_static.dir/src
 
@@ -275,7 +757,7 @@ build libgflags_nothreads.a: phony /home/linxu/CLionProjects/TNN.Demo/third_part
 #############################################
 # Folder: /home/linxu/CLionProjects/TNN.Demo/cmake-build-debug
 
-build all: phony TNN-demo /home/linxu/CLionProjects/TNN.Demo/third_party/gflags/all
+build all: phony demo_x86_imageclassify TNN-demo /home/linxu/CLionProjects/TNN.Demo/third_party/gflags/all
 
 # =============================================================================
 
@@ -296,14 +778,14 @@ build /home/linxu/CLionProjects/TNN.Demo/third_party/gflags/all: phony /home/lin
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | /home/linxu/Apps/clion-2022.3.2/bin/cmake/linux/x64/share/cmake-3.24/Modules/CMakeCInformation.cmake /home/linxu/Apps/clion-2022.3.2/bin/cmake/linux/x64/share/cmake-3.24/Modules/CMakeCXXInformation.cmake /home/linxu/Apps/clion-2022.3.2/bin/cmake/linux/x64/share/cmake-3.24/Modules/CMakeCommonLanguageInclude.cmake /home/linxu/Apps/clion-2022.3.2/bin/cmake/linux/x64/share/cmake-3.24/Modules/CMakeGenericSystem.cmake /home/linxu/Apps/clion-2022.3.2/bin/cmake/linux/x64/share/cmake-3.24/Modules/CMakeInitializeConfigs.cmake /home/linxu/Apps/clion-2022.3.2/bin/cmake/linux/x64/share/cmake-3.24/Modules/CMakeLanguageInformation.cmake /home/linxu/Apps/clion-2022.3.2/bin/cmake/linux/x64/share/cmake-3.24/Modules/CMakeSystemSpecificInformation.cmake /home/linxu/Apps/clion-2022.3.2/bin/cmake/linux/x64/share/cmake-3.24/Modules/CMakeSystemSpecificInitialize.cmake /home/linxu/Apps/clion-2022.3.2/bin/cmake/linux/x64/share/cmake-3.24/Modules/CheckCXXSymbolExists.cmake /home/linxu/Apps/clion-2022.3.2/bin/cmake/linux/x64/share/cmake-3.24/Modules/CheckIncludeFile.cmake /home/linxu/Apps/clion-2022.3.2/bin/cmake/linux/x64/share/cmake-3.24/Modules/CheckIncludeFileCXX.cmake /home/linxu/Apps/clion-2022.3.2/bin/cmake/linux/x64/share/cmake-3.24/Modules/CheckSymbolExists.cmake /home/linxu/Apps/clion-2022.3.2/bin/cmake/linux/x64/share/cmake-3.24/Modules/CheckTypeSize.cmake /home/linxu/Apps/clion-2022.3.2/bin/cmake/linux/x64/share/cmake-3.24/Modules/Compiler/CMakeCommonCompilerMacros.cmake /home/linxu/Apps/clion-2022.3.2/bin/cmake/linux/x64/share/cmake-3.24/Modules/Compiler/GNU-C.cmake /home/linxu/Apps/clion-2022.3.2/bin/cmake/linux/x64/share/cmake-3.24/Modules/Compiler/GNU-CXX.cmake /home/linxu/Apps/clion-2022.3.2/bin/cmake/linux/x64/share/cmake-3.24/Modules/Compiler/GNU.cmake /home/linxu/Apps/clion-2022.3.2/bin/cmake/linux/x64/share/cmake-3.24/Modules/FindPackageHandleStandardArgs.cmake /home/linxu/Apps/clion-2022.3.2/bin/cmake/linux/x64/share/cmake-3.24/Modules/FindPackageMessage.cmake /home/linxu/Apps/clion-2022.3.2/bin/cmake/linux/x64/share/cmake-3.24/Modules/Platform/Linux-GNU-C.cmake /home/linxu/Apps/clion-2022.3.2/bin/cmake/linux/x64/share/cmake-3.24/Modules/Platform/Linux-GNU-CXX.cmake /home/linxu/Apps/clion-2022.3.2/bin/cmake/linux/x64/share/cmake-3.24/Modules/Platform/Linux-GNU.cmake /home/linxu/Apps/clion-2022.3.2/bin/cmake/linux/x64/share/cmake-3.24/Modules/Platform/Linux.cmake /home/linxu/Apps/clion-2022.3.2/bin/cmake/linux/x64/share/cmake-3.24/Modules/Platform/UnixPaths.cmake /home/linxu/CLionProjects/TNN.Demo/CMakeLists.txt /home/linxu/CLionProjects/TNN.Demo/third_party/gflags/CMakeLists.txt /home/linxu/CLionProjects/TNN.Demo/third_party/gflags/cmake/config.cmake.in /home/linxu/CLionProjects/TNN.Demo/third_party/gflags/cmake/package.pc.in /home/linxu/CLionProjects/TNN.Demo/third_party/gflags/cmake/utils.cmake /home/linxu/CLionProjects/TNN.Demo/third_party/gflags/cmake/version.cmake.in /home/linxu/CLionProjects/TNN.Demo/third_party/gflags/src/config.h.in /home/linxu/CLionProjects/TNN.Demo/third_party/gflags/src/gflags.h.in /home/linxu/CLionProjects/TNN.Demo/third_party/gflags/src/gflags_completions.h.in /home/linxu/CLionProjects/TNN.Demo/third_party/gflags/src/gflags_declare.h.in /usr/local/lib/cmake/opencv4/OpenCVConfig-version.cmake /usr/local/lib/cmake/opencv4/OpenCVConfig.cmake /usr/local/lib/cmake/opencv4/OpenCVModules-release.cmake /usr/local/lib/cmake/opencv4/OpenCVModules.cmake CMakeCache.txt CMakeFiles/3.24.2/CMakeCCompiler.cmake CMakeFiles/3.24.2/CMakeCXXCompiler.cmake CMakeFiles/3.24.2/CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | /home/linxu/Apps/clion-2022.3.2/bin/cmake/linux/x64/share/cmake-3.24/Modules/CMakeCInformation.cmake /home/linxu/Apps/clion-2022.3.2/bin/cmake/linux/x64/share/cmake-3.24/Modules/CMakeCXXInformation.cmake /home/linxu/Apps/clion-2022.3.2/bin/cmake/linux/x64/share/cmake-3.24/Modules/CMakeCommonLanguageInclude.cmake /home/linxu/Apps/clion-2022.3.2/bin/cmake/linux/x64/share/cmake-3.24/Modules/CMakeGenericSystem.cmake /home/linxu/Apps/clion-2022.3.2/bin/cmake/linux/x64/share/cmake-3.24/Modules/CMakeInitializeConfigs.cmake /home/linxu/Apps/clion-2022.3.2/bin/cmake/linux/x64/share/cmake-3.24/Modules/CMakeLanguageInformation.cmake /home/linxu/Apps/clion-2022.3.2/bin/cmake/linux/x64/share/cmake-3.24/Modules/CMakeSystemSpecificInformation.cmake /home/linxu/Apps/clion-2022.3.2/bin/cmake/linux/x64/share/cmake-3.24/Modules/CMakeSystemSpecificInitialize.cmake /home/linxu/Apps/clion-2022.3.2/bin/cmake/linux/x64/share/cmake-3.24/Modules/CheckCXXSymbolExists.cmake /home/linxu/Apps/clion-2022.3.2/bin/cmake/linux/x64/share/cmake-3.24/Modules/CheckIncludeFile.cmake /home/linxu/Apps/clion-2022.3.2/bin/cmake/linux/x64/share/cmake-3.24/Modules/CheckIncludeFileCXX.cmake /home/linxu/Apps/clion-2022.3.2/bin/cmake/linux/x64/share/cmake-3.24/Modules/CheckSymbolExists.cmake /home/linxu/Apps/clion-2022.3.2/bin/cmake/linux/x64/share/cmake-3.24/Modules/CheckTypeSize.cmake /home/linxu/Apps/clion-2022.3.2/bin/cmake/linux/x64/share/cmake-3.24/Modules/Compiler/CMakeCommonCompilerMacros.cmake /home/linxu/Apps/clion-2022.3.2/bin/cmake/linux/x64/share/cmake-3.24/Modules/Compiler/GNU-C.cmake /home/linxu/Apps/clion-2022.3.2/bin/cmake/linux/x64/share/cmake-3.24/Modules/Compiler/GNU-CXX.cmake /home/linxu/Apps/clion-2022.3.2/bin/cmake/linux/x64/share/cmake-3.24/Modules/Compiler/GNU.cmake /home/linxu/Apps/clion-2022.3.2/bin/cmake/linux/x64/share/cmake-3.24/Modules/Platform/Linux-GNU-C.cmake /home/linxu/Apps/clion-2022.3.2/bin/cmake/linux/x64/share/cmake-3.24/Modules/Platform/Linux-GNU-CXX.cmake /home/linxu/Apps/clion-2022.3.2/bin/cmake/linux/x64/share/cmake-3.24/Modules/Platform/Linux-GNU.cmake /home/linxu/Apps/clion-2022.3.2/bin/cmake/linux/x64/share/cmake-3.24/Modules/Platform/Linux.cmake /home/linxu/Apps/clion-2022.3.2/bin/cmake/linux/x64/share/cmake-3.24/Modules/Platform/UnixPaths.cmake /home/linxu/CLionProjects/TNN.Demo/CMakeLists.txt /home/linxu/CLionProjects/TNN.Demo/third_party/gflags/CMakeLists.txt /home/linxu/CLionProjects/TNN.Demo/third_party/gflags/cmake/config.cmake.in /home/linxu/CLionProjects/TNN.Demo/third_party/gflags/cmake/package.pc.in /home/linxu/CLionProjects/TNN.Demo/third_party/gflags/cmake/utils.cmake /home/linxu/CLionProjects/TNN.Demo/third_party/gflags/cmake/version.cmake.in /home/linxu/CLionProjects/TNN.Demo/third_party/gflags/src/config.h.in /home/linxu/CLionProjects/TNN.Demo/third_party/gflags/src/gflags.h.in /home/linxu/CLionProjects/TNN.Demo/third_party/gflags/src/gflags_completions.h.in /home/linxu/CLionProjects/TNN.Demo/third_party/gflags/src/gflags_declare.h.in CMakeCache.txt CMakeFiles/3.24.2/CMakeCCompiler.cmake CMakeFiles/3.24.2/CMakeCXXCompiler.cmake CMakeFiles/3.24.2/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build /home/linxu/Apps/clion-2022.3.2/bin/cmake/linux/x64/share/cmake-3.24/Modules/CMakeCInformation.cmake /home/linxu/Apps/clion-2022.3.2/bin/cmake/linux/x64/share/cmake-3.24/Modules/CMakeCXXInformation.cmake /home/linxu/Apps/clion-2022.3.2/bin/cmake/linux/x64/share/cmake-3.24/Modules/CMakeCommonLanguageInclude.cmake /home/linxu/Apps/clion-2022.3.2/bin/cmake/linux/x64/share/cmake-3.24/Modules/CMakeGenericSystem.cmake /home/linxu/Apps/clion-2022.3.2/bin/cmake/linux/x64/share/cmake-3.24/Modules/CMakeInitializeConfigs.cmake /home/linxu/Apps/clion-2022.3.2/bin/cmake/linux/x64/share/cmake-3.24/Modules/CMakeLanguageInformation.cmake /home/linxu/Apps/clion-2022.3.2/bin/cmake/linux/x64/share/cmake-3.24/Modules/CMakeSystemSpecificInformation.cmake /home/linxu/Apps/clion-2022.3.2/bin/cmake/linux/x64/share/cmake-3.24/Modules/CMakeSystemSpecificInitialize.cmake /home/linxu/Apps/clion-2022.3.2/bin/cmake/linux/x64/share/cmake-3.24/Modules/CheckCXXSymbolExists.cmake /home/linxu/Apps/clion-2022.3.2/bin/cmake/linux/x64/share/cmake-3.24/Modules/CheckIncludeFile.cmake /home/linxu/Apps/clion-2022.3.2/bin/cmake/linux/x64/share/cmake-3.24/Modules/CheckIncludeFileCXX.cmake /home/linxu/Apps/clion-2022.3.2/bin/cmake/linux/x64/share/cmake-3.24/Modules/CheckSymbolExists.cmake /home/linxu/Apps/clion-2022.3.2/bin/cmake/linux/x64/share/cmake-3.24/Modules/CheckTypeSize.cmake /home/linxu/Apps/clion-2022.3.2/bin/cmake/linux/x64/share/cmake-3.24/Modules/Compiler/CMakeCommonCompilerMacros.cmake /home/linxu/Apps/clion-2022.3.2/bin/cmake/linux/x64/share/cmake-3.24/Modules/Compiler/GNU-C.cmake /home/linxu/Apps/clion-2022.3.2/bin/cmake/linux/x64/share/cmake-3.24/Modules/Compiler/GNU-CXX.cmake /home/linxu/Apps/clion-2022.3.2/bin/cmake/linux/x64/share/cmake-3.24/Modules/Compiler/GNU.cmake /home/linxu/Apps/clion-2022.3.2/bin/cmake/linux/x64/share/cmake-3.24/Modules/FindPackageHandleStandardArgs.cmake /home/linxu/Apps/clion-2022.3.2/bin/cmake/linux/x64/share/cmake-3.24/Modules/FindPackageMessage.cmake /home/linxu/Apps/clion-2022.3.2/bin/cmake/linux/x64/share/cmake-3.24/Modules/Platform/Linux-GNU-C.cmake /home/linxu/Apps/clion-2022.3.2/bin/cmake/linux/x64/share/cmake-3.24/Modules/Platform/Linux-GNU-CXX.cmake /home/linxu/Apps/clion-2022.3.2/bin/cmake/linux/x64/share/cmake-3.24/Modules/Platform/Linux-GNU.cmake /home/linxu/Apps/clion-2022.3.2/bin/cmake/linux/x64/share/cmake-3.24/Modules/Platform/Linux.cmake /home/linxu/Apps/clion-2022.3.2/bin/cmake/linux/x64/share/cmake-3.24/Modules/Platform/UnixPaths.cmake /home/linxu/CLionProjects/TNN.Demo/CMakeLists.txt /home/linxu/CLionProjects/TNN.Demo/third_party/gflags/CMakeLists.txt /home/linxu/CLionProjects/TNN.Demo/third_party/gflags/cmake/config.cmake.in /home/linxu/CLionProjects/TNN.Demo/third_party/gflags/cmake/package.pc.in /home/linxu/CLionProjects/TNN.Demo/third_party/gflags/cmake/utils.cmake /home/linxu/CLionProjects/TNN.Demo/third_party/gflags/cmake/version.cmake.in /home/linxu/CLionProjects/TNN.Demo/third_party/gflags/src/config.h.in /home/linxu/CLionProjects/TNN.Demo/third_party/gflags/src/gflags.h.in /home/linxu/CLionProjects/TNN.Demo/third_party/gflags/src/gflags_completions.h.in /home/linxu/CLionProjects/TNN.Demo/third_party/gflags/src/gflags_declare.h.in /usr/local/lib/cmake/opencv4/OpenCVConfig-version.cmake /usr/local/lib/cmake/opencv4/OpenCVConfig.cmake /usr/local/lib/cmake/opencv4/OpenCVModules-release.cmake /usr/local/lib/cmake/opencv4/OpenCVModules.cmake CMakeCache.txt CMakeFiles/3.24.2/CMakeCCompiler.cmake CMakeFiles/3.24.2/CMakeCXXCompiler.cmake CMakeFiles/3.24.2/CMakeSystem.cmake: phony
+build /home/linxu/Apps/clion-2022.3.2/bin/cmake/linux/x64/share/cmake-3.24/Modules/CMakeCInformation.cmake /home/linxu/Apps/clion-2022.3.2/bin/cmake/linux/x64/share/cmake-3.24/Modules/CMakeCXXInformation.cmake /home/linxu/Apps/clion-2022.3.2/bin/cmake/linux/x64/share/cmake-3.24/Modules/CMakeCommonLanguageInclude.cmake /home/linxu/Apps/clion-2022.3.2/bin/cmake/linux/x64/share/cmake-3.24/Modules/CMakeGenericSystem.cmake /home/linxu/Apps/clion-2022.3.2/bin/cmake/linux/x64/share/cmake-3.24/Modules/CMakeInitializeConfigs.cmake /home/linxu/Apps/clion-2022.3.2/bin/cmake/linux/x64/share/cmake-3.24/Modules/CMakeLanguageInformation.cmake /home/linxu/Apps/clion-2022.3.2/bin/cmake/linux/x64/share/cmake-3.24/Modules/CMakeSystemSpecificInformation.cmake /home/linxu/Apps/clion-2022.3.2/bin/cmake/linux/x64/share/cmake-3.24/Modules/CMakeSystemSpecificInitialize.cmake /home/linxu/Apps/clion-2022.3.2/bin/cmake/linux/x64/share/cmake-3.24/Modules/CheckCXXSymbolExists.cmake /home/linxu/Apps/clion-2022.3.2/bin/cmake/linux/x64/share/cmake-3.24/Modules/CheckIncludeFile.cmake /home/linxu/Apps/clion-2022.3.2/bin/cmake/linux/x64/share/cmake-3.24/Modules/CheckIncludeFileCXX.cmake /home/linxu/Apps/clion-2022.3.2/bin/cmake/linux/x64/share/cmake-3.24/Modules/CheckSymbolExists.cmake /home/linxu/Apps/clion-2022.3.2/bin/cmake/linux/x64/share/cmake-3.24/Modules/CheckTypeSize.cmake /home/linxu/Apps/clion-2022.3.2/bin/cmake/linux/x64/share/cmake-3.24/Modules/Compiler/CMakeCommonCompilerMacros.cmake /home/linxu/Apps/clion-2022.3.2/bin/cmake/linux/x64/share/cmake-3.24/Modules/Compiler/GNU-C.cmake /home/linxu/Apps/clion-2022.3.2/bin/cmake/linux/x64/share/cmake-3.24/Modules/Compiler/GNU-CXX.cmake /home/linxu/Apps/clion-2022.3.2/bin/cmake/linux/x64/share/cmake-3.24/Modules/Compiler/GNU.cmake /home/linxu/Apps/clion-2022.3.2/bin/cmake/linux/x64/share/cmake-3.24/Modules/Platform/Linux-GNU-C.cmake /home/linxu/Apps/clion-2022.3.2/bin/cmake/linux/x64/share/cmake-3.24/Modules/Platform/Linux-GNU-CXX.cmake /home/linxu/Apps/clion-2022.3.2/bin/cmake/linux/x64/share/cmake-3.24/Modules/Platform/Linux-GNU.cmake /home/linxu/Apps/clion-2022.3.2/bin/cmake/linux/x64/share/cmake-3.24/Modules/Platform/Linux.cmake /home/linxu/Apps/clion-2022.3.2/bin/cmake/linux/x64/share/cmake-3.24/Modules/Platform/UnixPaths.cmake /home/linxu/CLionProjects/TNN.Demo/CMakeLists.txt /home/linxu/CLionProjects/TNN.Demo/third_party/gflags/CMakeLists.txt /home/linxu/CLionProjects/TNN.Demo/third_party/gflags/cmake/config.cmake.in /home/linxu/CLionProjects/TNN.Demo/third_party/gflags/cmake/package.pc.in /home/linxu/CLionProjects/TNN.Demo/third_party/gflags/cmake/utils.cmake /home/linxu/CLionProjects/TNN.Demo/third_party/gflags/cmake/version.cmake.in /home/linxu/CLionProjects/TNN.Demo/third_party/gflags/src/config.h.in /home/linxu/CLionProjects/TNN.Demo/third_party/gflags/src/gflags.h.in /home/linxu/CLionProjects/TNN.Demo/third_party/gflags/src/gflags_completions.h.in /home/linxu/CLionProjects/TNN.Demo/third_party/gflags/src/gflags_declare.h.in CMakeCache.txt CMakeFiles/3.24.2/CMakeCCompiler.cmake CMakeFiles/3.24.2/CMakeCXXCompiler.cmake CMakeFiles/3.24.2/CMakeSystem.cmake: phony
 
 
 #############################################
