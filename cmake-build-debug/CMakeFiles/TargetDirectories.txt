@@ -1,5 +1,13 @@
 /home/linxu/CLionProjects/TNN.Demo/cmake-build-debug/CMakeFiles/demo_x86_imageclassify.dir
-/home/linxu/CLionProjects/TNN.Demo/cmake-build-debug/CMakeFiles/TNN-demo.dir
+/home/linxu/CLionProjects/TNN.Demo/cmake-build-debug/CMakeFiles/demo_x86_facedetector.dir
+/home/linxu/CLionProjects/TNN.Demo/cmake-build-debug/CMakeFiles/demo_x86_readingcomprehension.dir
+/home/linxu/CLionProjects/TNN.Demo/cmake-build-debug/CMakeFiles/demo_x86_objectdetector.dir
+/home/linxu/CLionProjects/TNN.Demo/cmake-build-debug/CMakeFiles/demo_x86_posedetector.dir
+/home/linxu/CLionProjects/TNN.Demo/cmake-build-debug/CMakeFiles/demo_x86_blazepose.dir
+/home/linxu/CLionProjects/TNN.Demo/cmake-build-debug/CMakeFiles/demo_x86_facealignment.dir
+/home/linxu/CLionProjects/TNN.Demo/cmake-build-debug/CMakeFiles/demo_main.dir
+/home/linxu/CLionProjects/TNN.Demo/cmake-build-debug/CMakeFiles/demo_x86_webcam.dir
+/home/linxu/CLionProjects/TNN.Demo/cmake-build-debug/CMakeFiles/demo_x86_ocrdetector.dir
 /home/linxu/CLionProjects/TNN.Demo/cmake-build-debug/CMakeFiles/edit_cache.dir
 /home/linxu/CLionProjects/TNN.Demo/cmake-build-debug/CMakeFiles/rebuild_cache.dir
 /home/linxu/CLionProjects/TNN.Demo/cmake-build-debug/CMakeFiles/list_install_components.dir

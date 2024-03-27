@@ -1,23 +1,20 @@
 cmake_minimum_required(VERSION 3.1)
-project(TNN.Demo)
+project(TNN.demo)
 message(${CMAKE_SOURCE_DIR})
 set(TNN_LIB_PATH ${CMAKE_SOURCE_DIR}/third_party/tnn_x86_lib/build_linux_native)
 message(${TNN_LIB_PATH})
+
 option(TNN_OPENVINO_ENABLE "with openvino lib" OFF)
 option(TNN_OPENVINO_LIB_PATH "openvino lib path" "")
-option(TNN_DEMO_WITH_OPENCV "with opencv" TRUE)
+option(TNN_DEMO_WITH_OPENCV "with opencv" OFF)
 
 set(CMAKE_CXX_STANDARD 11)
 set(TNN_CPU_ENABLE ON)
 
-
-find_package(OpenCV 4 REQUIRED)
-include_directories(${OpenCV_INCLUDE_DIRS})
-MESSAGE(STATUS "Project: ${PROJECT_NAME}")
-MESSAGE(STATUS "OpenCV library status:")
-MESSAGE(STATUS "    version: ${OpenCV_VERSION}")
-MESSAGE(STATUS "    libraries: ${OpenCV_LIBS}")
-MESSAGE(STATUS "    include path: ${OpenCV_INCLUDE_DIRS}")
+if (TNN_DEMO_WITH_OPENCV)
+    find_package(OpenCV 4 REQUIRED)
+    include_directories(${OpenCV_INCLUDE_DIRS})
+endif()
 
 if (CMAKE_SYSTEM_NAME MATCHES "Windows")
     set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} /w")
@@ -26,7 +23,6 @@ else()
     set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -O3 -std=c++11 -fPIC")
     set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -O3 -std=c++11 -pthread -fPIC")
 endif()
-
 
 set(TNNRoot ${CMAKE_SOURCE_DIR}/)
 set(TNNInclude ${TNNRoot}/include)
@@ -47,14 +43,41 @@ get_target_property(GFLAGS_INCLUDE_DIRS gflags INTERFACE_INCLUDE_DIRECTORIES)
 include_directories(BEFORE "${GFLAGS_INCLUDE_DIRS}")
 link_libraries(gflags)
 
+file(GLOB FLAG_SRC "${CMAKE_SOURCE_DIR}/src/*.cc")
+
+file(GLOB_RECURSE BASE_SRC
+        "${CMAKE_SOURCE_DIR}/base/*.cc")
+
+file(GLOB_RECURSE UTIL_SRC
+        "${CMAKE_SOURCE_DIR}/utils/*.cc")
+
+file(GLOB_RECURSE WEBCAM_SRC "${CMAKE_SOURCE_DIR}/base/ocr*.cc")
+list(REMOVE_ITEM BASE_SRC ${WEBCAM_SRC})
+
 if (TNN_DEMO_WITH_OPENCV)
     add_definitions(-D_OPENCV_)
 endif()
 
+add_executable(demo_x86_imageclassify ${CMAKE_SOURCE_DIR}/src/TNNImageClassify/TNNImageClassify.cc ${BASE_SRC} ${UTIL_SRC} ${FLAG_SRC})
+add_executable(demo_x86_facedetector ${CMAKE_SOURCE_DIR}/src/TNNFaceDetector/TNNFaceDetector.cc ${BASE_SRC} ${UTIL_SRC} ${FLAG_SRC})
+add_executable(demo_x86_readingcomprehension ${CMAKE_SOURCE_DIR}/src/BertReadingComprehension/BertReadingComprehension.cc ${BASE_SRC} ${UTIL_SRC} ${FLAG_SRC})
+add_executable(demo_x86_objectdetector ${CMAKE_SOURCE_DIR}/src/TNNObjectDetector/TNNObjectDetector.cc ${BASE_SRC} ${UTIL_SRC} ${FLAG_SRC})
+add_executable(demo_x86_posedetector ${CMAKE_SOURCE_DIR}/src/TNNSkeletonDetector/TNNSkeletonDetector.cc ${BASE_SRC} ${UTIL_SRC} ${FLAG_SRC})
+add_executable(demo_x86_blazepose ${CMAKE_SOURCE_DIR}/src/TNNBlazePose/TNNBlazePose.cc ${BASE_SRC} ${UTIL_SRC} ${FLAG_SRC})
+add_executable(demo_x86_facealignment ${CMAKE_SOURCE_DIR}/src/TNNFaceAligner/TNNFaceAligner.cc ${BASE_SRC} ${UTIL_SRC} ${FLAG_SRC})
+add_executable(demo_main main.cpp ${BASE_SRC} ${UTIL_SRC} ${FLAG_SRC})
 
-add_executable(TNN-demo main.cpp)
 if (TNN_DEMO_WITH_OPENCV)
-    target_link_libraries(TNN-demo ${OpenCV_LIBS} ${TNN_LIBS})
+    file(GLOB_RECURSE SRC "${CMAKE_SOURCE_DIR}/src/TNNWebCamBasedDemo/*.cc")
+    add_executable(demo_x86_webcam ${SRC} ${BASE_SRC} ${UTIL_SRC} ${WEBCAM_SRC})
+    add_executable(demo_x86_ocrdetector ${CMAKE_SOURCE_DIR}/src/TNNOcrDetector/TNNOcrDetector.cc ${BASE_SRC} ${UTIL_SRC} ${FLAG_SRC} ${WEBCAM_SRC})
+    target_link_libraries(demo_x86_webcam ${OpenCV_LIBS})
+    target_link_libraries(demo_x86_facedetector ${OpenCV_LIBS})
+    target_link_libraries(demo_x86_objectdetector ${OpenCV_LIBS})
+    target_link_libraries(demo_x86_posedetector ${OpenCV_LIBS})
+    target_link_libraries(demo_x86_facealignment ${OpenCV_LIBS})
+    target_link_libraries(demo_x86_ocrdetector ${OpenCV_LIBS})
+    target_link_libraries(demo_x86_blazepose ${OpenCV_LIBS})
+    target_link_libraries(demo_main ${OpenCV_LIBS} ${TNN_LIBS})
 endif()
-
 

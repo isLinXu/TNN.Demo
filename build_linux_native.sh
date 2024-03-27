@@ -2,11 +2,6 @@
 
 set -euxo pipefail
 
-cd third_party/tnn_x86_lib
-TNN_LIB_PATH=third_party/tnn_x86_lib/build_linux_native
-sh build_linux_native.sh
-cd -
-
 TNN_LIB_PATH=third_party/tnn_x86_lib/build_linux_native
 rm -rf tnn_demo
 mkdir tnn_demo
